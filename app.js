@@ -1,12 +1,12 @@
 var express = require('express');
-var middlewares = require('./middlewares');
-var passportCfg = require('./passport');
+var middlewares = require('./lib/middlewares');
+var passportCfg = require('./lib/passport');
 var http = require('http');
 var path = require('path');
 var flash = require('connect-flash');
 var passport = require('passport')
 var DBENGINE = 'mongoose';
-var dataCfg = require('./model/'+DBENGINE+"-cfg");
+var dataCfg = require('./lib/model/'+DBENGINE+"-cfg");
 
 var app = express();
 

@@ -1,0 +1,2191 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\SoftDesarrollo\\4-Software\\Node.js-0.11.9\\\\node.exe',
+1 verbose cli   'C:\\SoftDesarrollo\\4-Software\\Node.js-0.11.9\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'node-inspector' ]
+2 info using npm@1.3.15
+3 info using node@v0.11.9
+4 verbose node symlink C:\SoftDesarrollo\4-Software\Node.js-0.11.9\\node.exe
+5 verbose cache add [ 'node-inspector', null ]
+6 verbose cache add name=undefined spec="node-inspector" args=["node-inspector",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'node-inspector',
+7 verbose parsed url   path: 'node-inspector',
+7 verbose parsed url   href: 'node-inspector' }
+8 silly lockFile 4198ef9e-node-inspector node-inspector
+9 verbose lock node-inspector C:\Users\JINGA4X\AppData\Roaming\npm-cache\4198ef9e-node-inspector.lock
+10 silly lockFile 4198ef9e-node-inspector node-inspector
+11 silly lockFile 4198ef9e-node-inspector node-inspector
+12 verbose addNamed [ 'node-inspector', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile e68b88da-node-inspector node-inspector@
+15 verbose lock node-inspector@ C:\Users\JINGA4X\AppData\Roaming\npm-cache\e68b88da-node-inspector.lock
+16 silly addNameRange { name: 'node-inspector', range: '*', hasData: false }
+17 verbose url raw node-inspector
+18 verbose url resolving [ 'https://registry.npmjs.org/', './node-inspector' ]
+19 verbose url resolved https://registry.npmjs.org/node-inspector
+20 info trying registry request attempt 1 at 11:10:31
+21 verbose etag "26IZ8U25WFS7T5KTQBPUSW9U4"
+22 http GET https://registry.npmjs.org/node-inspector
+23 http 200 https://registry.npmjs.org/node-inspector
+24 silly registry.get cb [ 200,
+24 silly registry.get   { date: 'Fri, 25 Apr 2014 09:10:32 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+24 silly registry.get     etag: '"VF205Y9D4DK1SRKFDBOCZN4D"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     'cache-control': 'max-age=1',
+24 silly registry.get     'content-length': '71097',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     age: '2353',
+24 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-fra1222-FRA',
+24 silly registry.get     'x-cache': 'MISS, MISS',
+24 silly registry.get     'x-cache-hits': '0, 0',
+24 silly registry.get     'x-timer': 'S1398414638.199583530,VS0,VS47,VE53,VE2394745',
+24 silly registry.get     vary: 'Accept',
+24 silly registry.get     connection: 'close' } ]
+25 silly addNameRange number 2 { name: 'node-inspector', range: '*', hasData: true }
+26 silly addNameRange versions [ 'node-inspector',
+26 silly addNameRange   [ '0.0.1',
+26 silly addNameRange     '0.0.2',
+26 silly addNameRange     '0.0.3',
+26 silly addNameRange     '0.0.4',
+26 silly addNameRange     '0.1.0',
+26 silly addNameRange     '0.1.1',
+26 silly addNameRange     '0.1.2',
+26 silly addNameRange     '0.1.3',
+26 silly addNameRange     '0.1.4',
+26 silly addNameRange     '0.1.5',
+26 silly addNameRange     '0.1.6',
+26 silly addNameRange     '0.1.7',
+26 silly addNameRange     '0.1.8',
+26 silly addNameRange     '0.1.9',
+26 silly addNameRange     '0.1.10',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.3.1',
+26 silly addNameRange     '0.3.2',
+26 silly addNameRange     '0.3.3',
+26 silly addNameRange     '0.3.4',
+26 silly addNameRange     '0.4.0',
+26 silly addNameRange     '0.5.0',
+26 silly addNameRange     '0.6.0',
+26 silly addNameRange     '0.6.1',
+26 silly addNameRange     '0.6.2',
+26 silly addNameRange     '0.7.0-1',
+26 silly addNameRange     '0.2.0-beta1',
+26 silly addNameRange     '0.2.0-beta2',
+26 silly addNameRange     '0.2.0-beta3',
+26 silly addNameRange     '0.2.0-beta4',
+26 silly addNameRange     '0.3.0-preview1',
+26 silly addNameRange     '0.7.0-2',
+26 silly addNameRange     '0.7.0',
+26 silly addNameRange     '0.7.1',
+26 silly addNameRange     '0.7.2',
+26 silly addNameRange     '0.7.3' ] ]
+27 verbose addNamed [ 'node-inspector', '0.7.3' ]
+28 verbose addNamed [ '0.7.3', '0.7.3' ]
+29 silly lockFile c96c2310-node-inspector-0-7-3 node-inspector@0.7.3
+30 verbose lock node-inspector@0.7.3 C:\Users\JINGA4X\AppData\Roaming\npm-cache\c96c2310-node-inspector-0-7-3.lock
+31 silly lockFile c96c2310-node-inspector-0-7-3 node-inspector@0.7.3
+32 silly lockFile c96c2310-node-inspector-0-7-3 node-inspector@0.7.3
+33 silly lockFile e68b88da-node-inspector node-inspector@
+34 silly lockFile e68b88da-node-inspector node-inspector@
+35 silly resolved [ { name: 'node-inspector',
+35 silly resolved     version: '0.7.3',
+35 silly resolved     description: 'Web Inspector based nodeJS debugger',
+35 silly resolved     homepage: 'http://github.com/node-inspector/node-inspector',
+35 silly resolved     author: { name: 'Danny Coates', email: 'dannycoates@gmail.com' },
+35 silly resolved     keywords: [ 'debug', 'debugger', 'inspector', 'profiler' ],
+35 silly resolved     repository:
+35 silly resolved      { type: 'git',
+35 silly resolved        url: 'http://github.com/node-inspector/node-inspector.git' },
+35 silly resolved     engines: { node: '>=0.8.0' },
+35 silly resolved     bin:
+35 silly resolved      { 'node-inspector': './bin/inspector.js',
+35 silly resolved        'node-debug': './bin/node-debug.js' },
+35 silly resolved     dependencies:
+35 silly resolved      { express: '~3.5',
+35 silly resolved        async: '~0.4',
+35 silly resolved        glob: '~3.2.1',
+35 silly resolved        rc: '~0.3.0',
+35 silly resolved        'strong-data-uri': '~0.1.0',
+35 silly resolved        debug: '~0.8',
+35 silly resolved        ws: '~0.4.31',
+35 silly resolved        opener: '~1.3.0',
+35 silly resolved        yargs: '~1.1.2',
+35 silly resolved        which: '~1.0.5' },
+35 silly resolved     devDependencies:
+35 silly resolved      { mocha: 'latest',
+35 silly resolved        chai: 'latest',
+35 silly resolved        jshint: '^2.4.4',
+35 silly resolved        'fs-extra': '~0.8.1' },
+35 silly resolved     preferGlobal: true,
+35 silly resolved     scripts: { pretest: 'jshint .', test: 'mocha' },
+35 silly resolved     contributors:
+35 silly resolved      [ [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object] ],
+35 silly resolved     readme: '# Node Inspector\n\n[![Build Status](https://travis-ci.org/node-inspector/node-inspector.png?branch=master)](https://travis-ci.org/node-inspector/node-inspector)\n[![Dependency Status](https://gemnasium.com/node-inspector/node-inspector.png)](https://gemnasium.com/node-inspector/node-inspector)\n[![NPM version](https://badge.fury.io/js/node-inspector.png)](http://badge.fury.io/js/node-inspector)\n\n\n## Overview\n\nNode Inspector is a debugger interface for Node.js applications that uses the\nBlink Developer Tools (formerly WebKit Web Inspector).\n\nThe project maintenance and support is sponsored by\n[StrongLoop](http://strongloop.com).\n\n### Table of Content\n\n * [Quick Start](#quick-start)\n * [Features](#features)\n * [Known Issues](#known-issues)\n * [Troubleshooting](#troubleshooting)\n * [Advanced Use](#advanced-use)\n * [Configuration](#configuration)\n * [Contributing](#contributing-code)\n * [Credits](#credits)\n\n## Quick Start\n\n#### Install\n\n```sh\n$ npm install -g node-inspector\n```\n\n#### Start\n\n```sh\n$ node-debug app.js\n```\n\nwhere ```app.js``` is the name of your main Node application JavaScript file.\n\n#### Debug\n\nThe `node-debug` command will load Node Inspector in your default browser.\n\n> **NOTE:** Node Inspector works in Chrome and Opera only. You have to re-open\nthe inspector page in one of those browsers if another browser\nis your default web browser (e.g. Safari or Internet Explorer).\n\nNode Inspector works almost exactly as the Chrome Developer Tools. Read the\nexcellent\n[DevTools overview](http://code.google.com/chrome/devtools/docs/scripts.html)\nto get started.\n\nOther useful resources:\n - Documentation specific to Node Inspector provided by StrongLoop:\n  [Running Node Inspector](http://docs.strongloop.com/display/DOC/Running+Node+Inspector)\n - Miroslav\'s talk\n  [How to Debug Node Apps with Node Inspector](https://vimeo.com/77870960)\n - Danny\'s [screencasts](http://www.youtube.com/view_play_list?p=A5216AC29A41EFA8)\n   (most likely outdated by now)\n - [Getting Started from scratch](http://github.com/node-inspector/node-inspector/wiki/Getting-Started---from-scratch)\n   on wiki (most likely outdated by now)\n\n## Features\n\nThe Blink DevTools debugger is a powerful JavaScript debugger interface.\nNode Inspector supports almost all of the debugging features of DevTools, including:\n\n* Navigate in your source files\n* Set breakpoints (and specify trigger conditions)\n* Step over, step in, step out, resume (continue)\n* Inspect scopes, variables, object properties\n* Hover your mouse over an expression in your source to display its value in\n  a tooltip\n* Edit variables and object properties\n* Continue to location\n* Break on exceptions\n* Disable/enable all breakpoints\n\n### Cool stuff\n* Node Inspector uses WebSockets, so no polling for breaks.\n* Remote debugging\n* [Live edit of running code](http://github.com/node-inspector/node-inspector/wiki/LiveEdit),\n  optionally persisting changes back to the file-system.\n* Set breakpoints in files that are not loaded into V8 yet - useful for\n  debugging module loading/initialization.\n* Javascript from top to bottom :)\n* Embeddable in other applications - see [Embedding HOWTO](docs/embedding.md)\n  for more details.\n\n## Known Issues\n\n* Be careful about viewing the contents of Buffer objects,\n  each byte is displayed as an individual array element;\n  for most Buffers this will take too long to render.\n* While not stopped at a breakpoint the console doesn\'t always\n  behave as you might expect. See the\n  [issue #146](https://github.com/node-inspector/node-inspector/issues/146).\n* Profiler is not implemented yet. Have a look at\n  [node-webkit-agent](https://github.com/c4milo/node-webkit-agent)\n  in the meantime.\n* Break on uncaught exceptions does not work in all Node versions,\n  you need at least v0.11.3 (see\n  [node#5713](https://github.com/joyent/node/pull/5713)).\n* Debugging multiple processes (e.g. cluster) is cumbersome.\n  Read the following blog post for instructions:\n  [Debugging Clustered Apps with Node-Inspector](http://strongloop.com/strongblog/whats-new-nodejs-v0-12-debugging-clusters/)\n\n## Troubleshooting\n\n#### My script runs too fast to attach the debugger.\n\nThe debugged process must be started with `--debug-brk`, this way the script is paused on the first line.\n\nNote: `node-debug` adds this option for you by default.\n\n#### I got the UI in a weird state.\n\nWhen in doubt, refresh the page in browser\n\n#### Can I debug remotely?\n\nYes. Node Inspector must be running on the same machine, but your browser can be anywhere.\nJust make sure port 8080 is accessible.\n\n#### How do I specify files to hide?\n\nCreate a JSON-encoded array.  You must escape quote characters when using a command-line option.\n\n```sh\n$ node-inspector --hidden=\'["node_modules/framework"]\'\n```\n\nNote that the array items are interpreted as regular expressions.\n\n#### UI doesn\'t load or doesn\'t work and refresh didn\'t help\n\nMake sure that you have adblock disabled as well as any other content blocking scripts and plugins.\n\n#### How can I (selectively) delete debug session metadata?\n\nYou may want to delete debug session metadata if for example Node Inspector gets in a bad state with some\nwatch variables that were function calls (possibly into some special c-bindings).  In such cases, even restarting\nthe application/debug session may not fix the problem.\n\nNode Inspector stores debug session metadata in the HTML5 local storage.\nYou can inspect the contents of local storage and remove any items as\nneeded. In Google Chrome, you can execute any of the following in the JavaScript console:\n\n```js\n// Remove all\nwindow.localStorage.clear()\n// Or, to list keys so you can selectively remove them with removeItem()\nwindow.localStorage\n// Remove all the watch expressions\nwindow.localStorage.removeItem(\'watchExpressions\')\n// Remove all the breakpoints\nwindow.localStorage.removeItem(\'breakpoints\')\n```\n\nWhen you are done cleaning up, hit refresh in the browser.\n\n#### Node Inspector takes a long time to start up.\n\nTry setting --no-preload to true. This option disables searching disk for *.js at startup.\n\n#### How do I debug Mocha unit-tests?\n\nYou have to start `_mocha` as the debugged process and make sure\nthe execution pauses on the first line. This way you have enough\ntime to set your breakpoints before the tests are run.\n\n```sh\n$ node-debug _mocha\n```\n\n## Advanced Use\n\nWhile running `node-debug` is a convenient way to start your debugging\nsession, there may come time when you need to tweak the default setup.\n\nThere are three steps needed to get you up and debugging:\n\n#### 1. Start the Node Inspector server\n\n```sh\n$ node-inspector\n```\n\nYou can leave the server running in background, it\'s possible to debug\nmultiple processes using the same server instance.\n\n#### 2. Enable debug mode in your Node process\n\nYou can either start Node with a debug flag like:\n\n```sh\n$ node --debug your/node/program.js\n```\n\nor, to pause your script on the first line:\n\n```sh\n$ node --debug-brk your/short/node/script.js\n```\n\nOr you can enable debugging on a node that is already running by sending\nit a signal:\n\n1. Get the PID of the node process using your favorite method.\n`pgrep` or `ps -ef` are good\n\n    ```sh\n    $ pgrep -l node\n    2345 node your/node/server.js\n    ```\n\n2. Send it the USR1 signal\n\n    ```sh\n    $ kill -s USR1 2345\n    ```\n\n##### Windows\n\nWindows does not support UNIX signals. To enable debugging, you can use\nan undocumented API function `process._debugProcess(pid)`:\n\n1. Get the PID of the node process using your favorite method, e.g.\n\n    ```sh\n    > tasklist /FI "IMAGENAME eq node.exe"\n\n    Image Name                     PID Session Name        Session#    Mem Usage\n    ========================= ======== ================ =========== ============\n    node.exe                      3084 Console                    1     11,964 K\n    ```\n\n2. Call the API:\n\n    ```sh\n    > node -e "process._debugProcess(3084)"\n    ```\n\n#### 3. Load the debugger UI\n\nOpen http://127.0.0.1:8080/debug?port=5858 in the Chrome browser.\n\n## Configuration\n\n### node-debug\n\nCommand line options:\n\n```\n--debug-brk, -b         Break on the first line (`node --debug-brk`) [default: true]\n--web-port, -p, --port  Node Inspector port (`node-inspector --web-port={port}`)\n--debug-port, -d        Node/V8 debugger port (`node --debug={port}`)\n--cli, -c               CLI mode, do not open browser.\n--version, -v           Print Node Inspector\'s version.\n--help, -h              Show this help.\n```\n\n### node-inspector\n\nnode-inspector uses [rc](https://npmjs.org/package/rc)\n[[github]](https://github.com/dominictarr/rc) module to collect options.\n\nPlaces for configuration:\n* command line arguments (parsed by optimist)\n* enviroment variables prefixed with ```node-inspector_```\n* if you passed an option ```--config file``` then from that file\n* a local ```.node-inspectorrc``` or the first found looking in ```./ ../ ../../\n ../../../``` etc.\n* ```$HOME/.node-inspectorrc```\n* ```$HOME/.node-inspector/config```\n* ```$HOME/.config/node-inspector```\n* ```$HOME/.config/node-inspector/config```\n* ```/etc/node-inspectorrc```\n* ```/etc/node-inspector/config```\n* options from ```config.json``` for backward compatibility\n* defaults described in Node Inspector`s [./lib/config.js](lib/config.js).\n\nAll configuration sources that where found will be flattened into one object,\nso that sources earlier in this list override later ones.\n\nUse dashed option names in RC files. Sample config file:\n```js\n{\n  "web-port": 8088,\n  "web-host": null,\n  "debug-port": 5858,\n  "save-live-edit": true,\n  "no-preload": true,\n  "hidden": [],\n  "stack-trace-limit": 50\n}\n```\n\nList of predefined options:\n```\n       Option            Default                  Description\n--help               |             | Print information about options\n--web-port           |    8080     | Port to host the inspector\n--web-host           |  127.0.0.1  | Host to listen on\n--debug-port         |    5858     | Port to connect to the debugging app\n--save-live-edit     |    false    | Save live edit changes to disk\n                     |             |   (update the edited files)\n--no-preload         |    false    | Disables preloading *.js to speed up startup\n--hidden             |     []      | Array of files to hide from the UI\n                     |             |   (breakpoints in these files will be ignored)\n--stack-trace-limit  |     50      | Number of stack frames to show on a breakpoint\n```\n\n## Contributing Code\n\nMaking Node Inspector the best debugger for node.js cannot be achieved without\nthe help of the community. The following resources should help you to get\nstarted.\n\n* [Contributing](https://github.com/node-inspector/node-inspector/wiki/Contributing)\n* [Developer\'s Guide](https://github.com/node-inspector/node-inspector/wiki/Developer%27s-Guide)\n* [Easy Picks](https://github.com/node-inspector/node-inspector/issues?direction=asc&labels=Easy+Pick&page=1&sort=updated&state=open)\n\n## Credits\n\nMaintainers\n - [Danny Coates](https://github.com/dannycoates) - the original author\n   and a sole maintainer for several years.\n - [Miroslav Bajtoš](https://github.com/bajtos) - the current maintainer,\n   sponsored by [StrongLoop](http://strongloop.com).\n\nBig thanks to the many contributors to the project, see [AUTHORS](AUTHORS).\n',
+35 silly resolved     readmeFilename: 'README.md',
+35 silly resolved     bugs: { url: 'https://github.com/node-inspector/node-inspector/issues' },
+35 silly resolved     _id: 'node-inspector@0.7.3',
+35 silly resolved     _from: 'node-inspector@' } ]
+36 info install node-inspector@0.7.3 into C:\Users\JINGA4X\AppData\Roaming\npm
+37 info installOne node-inspector@0.7.3
+38 info C:\Users\JINGA4X\AppData\Roaming\npm\node_modules\node-inspector unbuild
+39 info preuninstall node-inspector@0.7.0-2
+40 info uninstall node-inspector@0.7.0-2
+41 verbose true,C:\Users\JINGA4X\AppData\Roaming\npm\node_modules,C:\Users\JINGA4X\AppData\Roaming\npm\node_modules unbuild node-inspector@0.7.0-2
+42 verbose C:\Users\JINGA4X\AppData\Roaming\npm,[object Object] binRoot
+43 info postuninstall node-inspector@0.7.0-2
+44 verbose tar unpack c:\Users\JINGA4X\AppData\Roaming\npm-cache\node-inspector\0.7.3\package.tgz
+45 silly lockFile 88a13a51--npm-node-modules-node-inspector tar://C:\Users\JINGA4X\AppData\Roaming\npm\node_modules\node-inspector
+46 verbose lock tar://C:\Users\JINGA4X\AppData\Roaming\npm\node_modules\node-inspector C:\Users\JINGA4X\AppData\Roaming\npm-cache\88a13a51--npm-node-modules-node-inspector.lock
+47 silly lockFile 788866e0-node-inspector-0-7-3-package-tgz tar://c:\Users\JINGA4X\AppData\Roaming\npm-cache\node-inspector\0.7.3\package.tgz
+48 verbose lock tar://c:\Users\JINGA4X\AppData\Roaming\npm-cache\node-inspector\0.7.3\package.tgz C:\Users\JINGA4X\AppData\Roaming\npm-cache\788866e0-node-inspector-0-7-3-package-tgz.lock
+49 silly gunzTarPerm modes [ '755', '644' ]
+50 silly gunzTarPerm extractEntry .jshintignore
+51 silly gunzTarPerm modified mode [ '.jshintignore', 438, 420 ]
+52 silly gunzTarPerm extractEntry .jshintrc
+53 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+54 silly gunzTarPerm extractEntry AUTHORS
+55 silly gunzTarPerm modified mode [ 'AUTHORS', 438, 420 ]
+56 silly gunzTarPerm extractEntry bin/
+57 silly gunzTarPerm modified mode [ 'bin/', 438, 493 ]
+58 silly gunzTarPerm extractEntry bin/inspector.js
+59 silly gunzTarPerm modified mode [ 'bin/inspector.js', 438, 420 ]
+60 silly gunzTarPerm extractEntry bin/node-debug.js
+61 silly gunzTarPerm modified mode [ 'bin/node-debug.js', 438, 420 ]
+62 silly gunzTarPerm extractEntry bin/run-repl.js
+63 silly gunzTarPerm modified mode [ 'bin/run-repl.js', 438, 420 ]
+64 silly gunzTarPerm extractEntry ChangeLog
+65 silly gunzTarPerm modified mode [ 'ChangeLog', 438, 420 ]
+66 silly gunzTarPerm extractEntry config.json
+67 silly gunzTarPerm modified mode [ 'config.json', 438, 420 ]
+68 silly gunzTarPerm extractEntry docs/
+69 silly gunzTarPerm modified mode [ 'docs/', 438, 493 ]
+70 silly gunzTarPerm extractEntry docs/embedding.md
+71 silly gunzTarPerm modified mode [ 'docs/embedding.md', 438, 420 ]
+72 silly gunzTarPerm extractEntry front-end/
+73 silly gunzTarPerm modified mode [ 'front-end/', 438, 493 ]
+74 silly gunzTarPerm extractEntry front-end/AdvancedSearchController.js
+75 silly gunzTarPerm modified mode [ 'front-end/AdvancedSearchController.js', 438, 420 ]
+76 silly gunzTarPerm extractEntry front-end/ApplicationCacheItemsView.js
+77 silly gunzTarPerm modified mode [ 'front-end/ApplicationCacheItemsView.js', 438, 420 ]
+78 silly gunzTarPerm extractEntry front-end/ApplicationCacheModel.js
+79 silly gunzTarPerm modified mode [ 'front-end/ApplicationCacheModel.js', 438, 420 ]
+80 silly gunzTarPerm extractEntry front-end/AuditCategories.js
+81 silly gunzTarPerm modified mode [ 'front-end/AuditCategories.js', 438, 420 ]
+82 silly gunzTarPerm extractEntry front-end/AuditController.js
+83 silly gunzTarPerm modified mode [ 'front-end/AuditController.js', 438, 420 ]
+84 silly gunzTarPerm extractEntry front-end/AuditFormatters.js
+85 silly gunzTarPerm modified mode [ 'front-end/AuditFormatters.js', 438, 420 ]
+86 silly gunzTarPerm extractEntry front-end/AuditLauncherView.js
+87 silly gunzTarPerm modified mode [ 'front-end/AuditLauncherView.js', 438, 420 ]
+88 silly gunzTarPerm extractEntry front-end/AuditResultView.js
+89 silly gunzTarPerm modified mode [ 'front-end/AuditResultView.js', 438, 420 ]
+90 silly gunzTarPerm extractEntry front-end/AuditRules.js
+91 silly gunzTarPerm modified mode [ 'front-end/AuditRules.js', 438, 420 ]
+92 silly gunzTarPerm extractEntry front-end/auditsPanel.css
+93 silly gunzTarPerm modified mode [ 'front-end/auditsPanel.css', 438, 420 ]
+94 silly gunzTarPerm extractEntry front-end/AuditsPanel.js
+95 silly gunzTarPerm modified mode [ 'front-end/AuditsPanel.js', 438, 420 ]
+96 silly gunzTarPerm extractEntry front-end/BottomUpProfileDataGridTree.js
+97 silly gunzTarPerm modified mode [ 'front-end/BottomUpProfileDataGridTree.js', 438, 420 ]
+98 silly gunzTarPerm extractEntry front-end/breadcrumbList.css
+99 silly gunzTarPerm modified mode [ 'front-end/breadcrumbList.css', 438, 420 ]
+100 silly gunzTarPerm extractEntry front-end/BreakpointManager.js
+101 silly gunzTarPerm modified mode [ 'front-end/BreakpointManager.js', 438, 420 ]
+102 silly gunzTarPerm extractEntry front-end/breakpointsList.css
+103 silly gunzTarPerm modified mode [ 'front-end/breakpointsList.css', 438, 420 ]
+104 silly gunzTarPerm extractEntry front-end/BreakpointsSidebarPane.js
+105 silly gunzTarPerm modified mode [ 'front-end/BreakpointsSidebarPane.js', 438, 420 ]
+106 silly gunzTarPerm extractEntry front-end/buildSystemOnly.js
+107 silly gunzTarPerm modified mode [ 'front-end/buildSystemOnly.js', 438, 420 ]
+108 silly gunzTarPerm extractEntry front-end/CallStackSidebarPane.js
+109 silly gunzTarPerm modified mode [ 'front-end/CallStackSidebarPane.js', 438, 420 ]
+110 silly gunzTarPerm extractEntry front-end/canvasProfiler.css
+111 silly gunzTarPerm modified mode [ 'front-end/canvasProfiler.css', 438, 420 ]
+112 silly gunzTarPerm extractEntry front-end/CanvasProfileView.js
+113 silly gunzTarPerm modified mode [ 'front-end/CanvasProfileView.js', 438, 420 ]
+114 silly gunzTarPerm extractEntry front-end/CanvasReplayStateView.js
+115 silly gunzTarPerm modified mode [ 'front-end/CanvasReplayStateView.js', 438, 420 ]
+116 silly gunzTarPerm extractEntry front-end/Checkbox.js
+117 silly gunzTarPerm modified mode [ 'front-end/Checkbox.js', 438, 420 ]
+118 silly gunzTarPerm extractEntry front-end/cm/
+119 silly gunzTarPerm modified mode [ 'front-end/cm/', 438, 493 ]
+120 silly gunzTarPerm extractEntry front-end/cm/clike.js
+121 silly gunzTarPerm modified mode [ 'front-end/cm/clike.js', 438, 420 ]
+122 silly gunzTarPerm extractEntry front-end/cm/closebrackets.js
+123 silly gunzTarPerm modified mode [ 'front-end/cm/closebrackets.js', 438, 420 ]
+124 silly gunzTarPerm extractEntry front-end/cm/cmdevtools.css
+125 silly gunzTarPerm modified mode [ 'front-end/cm/cmdevtools.css', 438, 420 ]
+126 silly gunzTarPerm extractEntry front-end/cm/codemirror.css
+127 silly gunzTarPerm modified mode [ 'front-end/cm/codemirror.css', 438, 420 ]
+128 silly gunzTarPerm extractEntry front-end/cm/codemirror.js
+129 silly gunzTarPerm modified mode [ 'front-end/cm/codemirror.js', 438, 420 ]
+130 silly gunzTarPerm extractEntry front-end/cm/coffeescript.js
+131 silly gunzTarPerm modified mode [ 'front-end/cm/coffeescript.js', 438, 420 ]
+132 silly gunzTarPerm extractEntry front-end/cm/comment.js
+133 silly gunzTarPerm modified mode [ 'front-end/cm/comment.js', 438, 420 ]
+134 silly gunzTarPerm extractEntry front-end/cm/css.js
+135 silly gunzTarPerm modified mode [ 'front-end/cm/css.js', 438, 420 ]
+136 silly gunzTarPerm extractEntry front-end/cm/headlesscodemirror.js
+137 silly gunzTarPerm modified mode [ 'front-end/cm/headlesscodemirror.js', 438, 420 ]
+138 silly gunzTarPerm extractEntry front-end/cm/htmlembedded.js
+139 silly gunzTarPerm modified mode [ 'front-end/cm/htmlembedded.js', 438, 420 ]
+140 silly gunzTarPerm extractEntry front-end/cm/htmlmixed.js
+141 silly gunzTarPerm modified mode [ 'front-end/cm/htmlmixed.js', 438, 420 ]
+142 silly gunzTarPerm extractEntry front-end/cm/javascript.js
+143 silly gunzTarPerm modified mode [ 'front-end/cm/javascript.js', 438, 420 ]
+144 silly gunzTarPerm extractEntry front-end/cm/LICENSE
+145 silly gunzTarPerm modified mode [ 'front-end/cm/LICENSE', 438, 420 ]
+146 silly gunzTarPerm extractEntry front-end/cm/LICENSE_python
+147 silly gunzTarPerm modified mode [ 'front-end/cm/LICENSE_python', 438, 420 ]
+148 silly gunzTarPerm extractEntry front-end/cm/markselection.js
+149 silly gunzTarPerm modified mode [ 'front-end/cm/markselection.js', 438, 420 ]
+150 silly gunzTarPerm extractEntry front-end/cm/matchbrackets.js
+151 silly gunzTarPerm modified mode [ 'front-end/cm/matchbrackets.js', 438, 420 ]
+152 silly gunzTarPerm extractEntry front-end/cm/overlay.js
+153 silly gunzTarPerm modified mode [ 'front-end/cm/overlay.js', 438, 420 ]
+154 silly gunzTarPerm extractEntry front-end/cm/php.js
+155 silly gunzTarPerm modified mode [ 'front-end/cm/php.js', 438, 420 ]
+156 silly gunzTarPerm extractEntry front-end/cm/python.js
+157 silly gunzTarPerm modified mode [ 'front-end/cm/python.js', 438, 420 ]
+158 silly gunzTarPerm extractEntry front-end/cm/shell.js
+159 silly gunzTarPerm modified mode [ 'front-end/cm/shell.js', 438, 420 ]
+160 silly gunzTarPerm extractEntry front-end/cm/xml.js
+161 silly gunzTarPerm modified mode [ 'front-end/cm/xml.js', 438, 420 ]
+162 silly gunzTarPerm extractEntry front-end/CodeMirrorTextEditor.js
+163 silly gunzTarPerm modified mode [ 'front-end/CodeMirrorTextEditor.js', 438, 420 ]
+164 silly gunzTarPerm extractEntry front-end/CodeMirrorUtils.js
+165 silly gunzTarPerm modified mode [ 'front-end/CodeMirrorUtils.js', 438, 420 ]
+166 silly gunzTarPerm extractEntry front-end/Color.js
+167 silly gunzTarPerm modified mode [ 'front-end/Color.js', 438, 420 ]
+168 silly gunzTarPerm extractEntry front-end/CompilerScriptMapping.js
+169 silly gunzTarPerm modified mode [ 'front-end/CompilerScriptMapping.js', 438, 420 ]
+170 silly gunzTarPerm extractEntry front-end/CompletionDictionary.js
+171 silly gunzTarPerm modified mode [ 'front-end/CompletionDictionary.js', 438, 420 ]
+172 silly gunzTarPerm extractEntry front-end/ConsoleMessage.js
+173 silly gunzTarPerm modified mode [ 'front-end/ConsoleMessage.js', 438, 420 ]
+174 silly gunzTarPerm extractEntry front-end/ConsoleModel.js
+175 silly gunzTarPerm modified mode [ 'front-end/ConsoleModel.js', 438, 420 ]
+176 silly gunzTarPerm extractEntry front-end/ConsolePanel.js
+177 silly gunzTarPerm modified mode [ 'front-end/ConsolePanel.js', 438, 420 ]
+178 silly gunzTarPerm extractEntry front-end/ConsoleView.js
+179 silly gunzTarPerm modified mode [ 'front-end/ConsoleView.js', 438, 420 ]
+180 silly gunzTarPerm extractEntry front-end/ContentProvider.js
+181 silly gunzTarPerm modified mode [ 'front-end/ContentProvider.js', 438, 420 ]
+182 silly gunzTarPerm extractEntry front-end/ContentProviderBasedProjectDelegate.js
+183 silly gunzTarPerm modified mode [ 'front-end/ContentProviderBasedProjectDelegate.js', 438, 420 ]
+184 silly gunzTarPerm extractEntry front-end/ContentProviders.js
+185 silly gunzTarPerm modified mode [ 'front-end/ContentProviders.js', 438, 420 ]
+186 silly gunzTarPerm extractEntry front-end/ContextMenu.js
+187 silly gunzTarPerm modified mode [ 'front-end/ContextMenu.js', 438, 420 ]
+188 silly gunzTarPerm extractEntry front-end/CookieItemsView.js
+189 silly gunzTarPerm modified mode [ 'front-end/CookieItemsView.js', 438, 420 ]
+190 silly gunzTarPerm extractEntry front-end/CookieParser.js
+191 silly gunzTarPerm modified mode [ 'front-end/CookieParser.js', 438, 420 ]
+192 silly gunzTarPerm extractEntry front-end/CookiesTable.js
+193 silly gunzTarPerm modified mode [ 'front-end/CookiesTable.js', 438, 420 ]
+194 silly gunzTarPerm extractEntry front-end/CPUProfileView.js
+195 silly gunzTarPerm modified mode [ 'front-end/CPUProfileView.js', 438, 420 ]
+196 silly gunzTarPerm extractEntry front-end/CSSMetadata.js
+197 silly gunzTarPerm modified mode [ 'front-end/CSSMetadata.js', 438, 420 ]
+198 silly gunzTarPerm extractEntry front-end/CSSNamedFlowCollectionsView.js
+199 silly gunzTarPerm modified mode [ 'front-end/CSSNamedFlowCollectionsView.js', 438, 420 ]
+200 silly gunzTarPerm extractEntry front-end/cssNamedFlows.css
+201 silly gunzTarPerm modified mode [ 'front-end/cssNamedFlows.css', 438, 420 ]
+202 silly gunzTarPerm extractEntry front-end/CSSNamedFlowView.js
+203 silly gunzTarPerm modified mode [ 'front-end/CSSNamedFlowView.js', 438, 420 ]
+204 silly gunzTarPerm extractEntry front-end/CSSStyleModel.js
+205 silly gunzTarPerm modified mode [ 'front-end/CSSStyleModel.js', 438, 420 ]
+206 silly gunzTarPerm extractEntry front-end/CSSStyleSheetMapping.js
+207 silly gunzTarPerm modified mode [ 'front-end/CSSStyleSheetMapping.js', 438, 420 ]
+208 silly gunzTarPerm extractEntry front-end/Database.js
+209 silly gunzTarPerm modified mode [ 'front-end/Database.js', 438, 420 ]
+210 silly gunzTarPerm extractEntry front-end/DatabaseQueryView.js
+211 silly gunzTarPerm modified mode [ 'front-end/DatabaseQueryView.js', 438, 420 ]
+212 silly gunzTarPerm extractEntry front-end/DatabaseTableView.js
+213 silly gunzTarPerm modified mode [ 'front-end/DatabaseTableView.js', 438, 420 ]
+214 silly gunzTarPerm extractEntry front-end/dataGrid.css
+215 silly gunzTarPerm modified mode [ 'front-end/dataGrid.css', 438, 420 ]
+216 silly gunzTarPerm extractEntry front-end/DataGrid.js
+217 silly gunzTarPerm modified mode [ 'front-end/DataGrid.js', 438, 420 ]
+218 silly gunzTarPerm extractEntry front-end/DebuggerModel.js
+219 silly gunzTarPerm modified mode [ 'front-end/DebuggerModel.js', 438, 420 ]
+220 silly gunzTarPerm extractEntry front-end/DebuggerScriptMapping.js
+221 silly gunzTarPerm modified mode [ 'front-end/DebuggerScriptMapping.js', 438, 420 ]
+222 silly gunzTarPerm extractEntry front-end/DefaultScriptMapping.js
+223 silly gunzTarPerm modified mode [ 'front-end/DefaultScriptMapping.js', 438, 420 ]
+224 silly gunzTarPerm extractEntry front-end/DevToolsExtensionAPI.js
+225 silly gunzTarPerm modified mode [ 'front-end/DevToolsExtensionAPI.js', 438, 420 ]
+226 silly gunzTarPerm extractEntry front-end/dialog.css
+227 silly gunzTarPerm modified mode [ 'front-end/dialog.css', 438, 420 ]
+228 silly gunzTarPerm extractEntry front-end/Dialog.js
+229 silly gunzTarPerm modified mode [ 'front-end/Dialog.js', 438, 420 ]
+230 silly gunzTarPerm extractEntry front-end/DirectoryContentView.js
+231 silly gunzTarPerm modified mode [ 'front-end/DirectoryContentView.js', 438, 420 ]
+232 silly gunzTarPerm extractEntry front-end/DockController.js
+233 silly gunzTarPerm modified mode [ 'front-end/DockController.js', 438, 420 ]
+234 silly gunzTarPerm extractEntry front-end/DOMAgent.js
+235 silly gunzTarPerm modified mode [ 'front-end/DOMAgent.js', 438, 420 ]
+236 silly gunzTarPerm extractEntry front-end/DOMBreakpointsSidebarPane.js
+237 silly gunzTarPerm modified mode [ 'front-end/DOMBreakpointsSidebarPane.js', 438, 420 ]
+238 silly gunzTarPerm extractEntry front-end/DOMCountersGraph.js
+239 silly gunzTarPerm modified mode [ 'front-end/DOMCountersGraph.js', 438, 420 ]
+240 silly gunzTarPerm extractEntry front-end/DOMExtension.js
+241 silly gunzTarPerm modified mode [ 'front-end/DOMExtension.js', 438, 420 ]
+242 silly gunzTarPerm extractEntry front-end/DOMPresentationUtils.js
+243 silly gunzTarPerm modified mode [ 'front-end/DOMPresentationUtils.js', 438, 420 ]
+244 silly gunzTarPerm extractEntry front-end/DOMStorage.js
+245 silly gunzTarPerm modified mode [ 'front-end/DOMStorage.js', 438, 420 ]
+246 silly gunzTarPerm extractEntry front-end/DOMStorageItemsView.js
+247 silly gunzTarPerm modified mode [ 'front-end/DOMStorageItemsView.js', 438, 420 ]
+248 silly gunzTarPerm extractEntry front-end/DOMSyntaxHighlighter.js
+249 silly gunzTarPerm modified mode [ 'front-end/DOMSyntaxHighlighter.js', 438, 420 ]
+250 silly gunzTarPerm extractEntry front-end/Drawer.js
+251 silly gunzTarPerm modified mode [ 'front-end/Drawer.js', 438, 420 ]
+252 silly gunzTarPerm extractEntry front-end/EditFileSystemDialog.js
+253 silly gunzTarPerm modified mode [ 'front-end/EditFileSystemDialog.js', 438, 420 ]
+254 silly gunzTarPerm extractEntry front-end/elementsPanel.css
+255 silly gunzTarPerm modified mode [ 'front-end/elementsPanel.css', 438, 420 ]
+256 silly gunzTarPerm extractEntry front-end/ElementsPanel.js
+257 silly gunzTarPerm modified mode [ 'front-end/ElementsPanel.js', 438, 420 ]
+258 silly gunzTarPerm extractEntry front-end/ElementsPanelDescriptor.js
+259 silly gunzTarPerm modified mode [ 'front-end/ElementsPanelDescriptor.js', 438, 420 ]
+260 silly gunzTarPerm extractEntry front-end/ElementsTreeOutline.js
+261 silly gunzTarPerm modified mode [ 'front-end/ElementsTreeOutline.js', 438, 420 ]
+262 silly gunzTarPerm extractEntry front-end/EmptyView.js
+263 silly gunzTarPerm modified mode [ 'front-end/EmptyView.js', 438, 420 ]
+264 silly gunzTarPerm extractEntry front-end/EventListenersSidebarPane.js
+265 silly gunzTarPerm modified mode [ 'front-end/EventListenersSidebarPane.js', 438, 420 ]
+266 silly gunzTarPerm extractEntry front-end/ExtensionAPI.js
+267 silly gunzTarPerm modified mode [ 'front-end/ExtensionAPI.js', 438, 420 ]
+268 silly gunzTarPerm extractEntry front-end/ExtensionAuditCategory.js
+269 silly gunzTarPerm modified mode [ 'front-end/ExtensionAuditCategory.js', 438, 420 ]
+270 silly gunzTarPerm extractEntry front-end/ExtensionPanel.js
+271 silly gunzTarPerm modified mode [ 'front-end/ExtensionPanel.js', 438, 420 ]
+272 silly gunzTarPerm extractEntry front-end/ExtensionRegistryStub.js
+273 silly gunzTarPerm modified mode [ 'front-end/ExtensionRegistryStub.js', 438, 420 ]
+274 silly gunzTarPerm extractEntry front-end/ExtensionServer.js
+275 silly gunzTarPerm modified mode [ 'front-end/ExtensionServer.js', 438, 420 ]
+276 silly gunzTarPerm extractEntry front-end/ExtensionView.js
+277 silly gunzTarPerm modified mode [ 'front-end/ExtensionView.js', 438, 420 ]
+278 silly gunzTarPerm extractEntry front-end/externs.js
+279 silly gunzTarPerm modified mode [ 'front-end/externs.js', 438, 420 ]
+280 silly gunzTarPerm extractEntry front-end/FileContentView.js
+281 silly gunzTarPerm modified mode [ 'front-end/FileContentView.js', 438, 420 ]
+282 silly gunzTarPerm extractEntry front-end/FileManager.js
+283 silly gunzTarPerm modified mode [ 'front-end/FileManager.js', 438, 420 ]
+284 silly gunzTarPerm extractEntry front-end/FilePathScoreFunction.js
+285 silly gunzTarPerm modified mode [ 'front-end/FilePathScoreFunction.js', 438, 420 ]
+286 silly gunzTarPerm extractEntry front-end/FileSystemMapping.js
+287 silly gunzTarPerm modified mode [ 'front-end/FileSystemMapping.js', 438, 420 ]
+288 silly gunzTarPerm extractEntry front-end/FileSystemModel.js
+289 silly gunzTarPerm modified mode [ 'front-end/FileSystemModel.js', 438, 420 ]
+290 silly gunzTarPerm extractEntry front-end/FileSystemProjectDelegate.js
+291 silly gunzTarPerm modified mode [ 'front-end/FileSystemProjectDelegate.js', 438, 420 ]
+292 silly gunzTarPerm extractEntry front-end/FileSystemView.js
+293 silly gunzTarPerm modified mode [ 'front-end/FileSystemView.js', 438, 420 ]
+294 silly gunzTarPerm extractEntry front-end/FileUtils.js
+295 silly gunzTarPerm modified mode [ 'front-end/FileUtils.js', 438, 420 ]
+296 silly gunzTarPerm extractEntry front-end/filteredItemSelectionDialog.css
+297 silly gunzTarPerm modified mode [ 'front-end/filteredItemSelectionDialog.css', 438, 420 ]
+298 silly gunzTarPerm extractEntry front-end/FilteredItemSelectionDialog.js
+299 silly gunzTarPerm modified mode [ 'front-end/FilteredItemSelectionDialog.js', 438, 420 ]
+300 silly gunzTarPerm extractEntry front-end/flameChart.css
+301 silly gunzTarPerm modified mode [ 'front-end/flameChart.css', 438, 420 ]
+302 silly gunzTarPerm extractEntry front-end/FlameChart.js
+303 silly gunzTarPerm modified mode [ 'front-end/FlameChart.js', 438, 420 ]
+304 silly gunzTarPerm extractEntry front-end/FontView.js
+305 silly gunzTarPerm modified mode [ 'front-end/FontView.js', 438, 420 ]
+306 silly gunzTarPerm extractEntry front-end/GoToLineDialog.js
+307 silly gunzTarPerm modified mode [ 'front-end/GoToLineDialog.js', 438, 420 ]
+308 silly gunzTarPerm extractEntry front-end/HandlerRegistry.js
+309 silly gunzTarPerm modified mode [ 'front-end/HandlerRegistry.js', 438, 420 ]
+310 silly gunzTarPerm extractEntry front-end/HAREntry.js
+311 silly gunzTarPerm modified mode [ 'front-end/HAREntry.js', 438, 420 ]
+312 silly gunzTarPerm extractEntry front-end/heapProfiler.css
+313 silly gunzTarPerm modified mode [ 'front-end/heapProfiler.css', 438, 420 ]
+314 silly gunzTarPerm extractEntry front-end/HeapSnapshot.js
+315 silly gunzTarPerm modified mode [ 'front-end/HeapSnapshot.js', 438, 420 ]
+316 silly gunzTarPerm extractEntry front-end/HeapSnapshotDataGrids.js
+317 silly gunzTarPerm modified mode [ 'front-end/HeapSnapshotDataGrids.js', 438, 420 ]
+318 silly gunzTarPerm extractEntry front-end/HeapSnapshotGridNodes.js
+319 silly gunzTarPerm modified mode [ 'front-end/HeapSnapshotGridNodes.js', 438, 420 ]
+320 silly gunzTarPerm extractEntry front-end/HeapSnapshotLoader.js
+321 silly gunzTarPerm modified mode [ 'front-end/HeapSnapshotLoader.js', 438, 420 ]
+322 silly gunzTarPerm extractEntry front-end/HeapSnapshotProxy.js
+323 silly gunzTarPerm modified mode [ 'front-end/HeapSnapshotProxy.js', 438, 420 ]
+324 silly gunzTarPerm extractEntry front-end/HeapSnapshotView.js
+325 silly gunzTarPerm modified mode [ 'front-end/HeapSnapshotView.js', 438, 420 ]
+326 silly gunzTarPerm extractEntry front-end/HeapSnapshotWorker.js
+327 silly gunzTarPerm modified mode [ 'front-end/HeapSnapshotWorker.js', 438, 420 ]
+328 silly gunzTarPerm extractEntry front-end/HeapSnapshotWorkerDispatcher.js
+329 silly gunzTarPerm modified mode [ 'front-end/HeapSnapshotWorkerDispatcher.js', 438, 420 ]
+330 silly gunzTarPerm extractEntry front-end/helpScreen.css
+331 silly gunzTarPerm modified mode [ 'front-end/helpScreen.css', 438, 420 ]
+332 silly gunzTarPerm extractEntry front-end/HelpScreen.js
+333 silly gunzTarPerm modified mode [ 'front-end/HelpScreen.js', 438, 420 ]
+334 silly gunzTarPerm extractEntry front-end/Images/
+335 silly gunzTarPerm modified mode [ 'front-end/Images/', 438, 493 ]
+336 silly gunzTarPerm extractEntry front-end/Images/addIcon.png
+337 silly gunzTarPerm modified mode [ 'front-end/Images/addIcon.png', 438, 420 ]
+338 silly gunzTarPerm extractEntry front-end/Images/applicationCache.png
+339 silly gunzTarPerm modified mode [ 'front-end/Images/applicationCache.png', 438, 420 ]
+340 silly gunzTarPerm extractEntry front-end/Images/back.png
+341 silly gunzTarPerm modified mode [ 'front-end/Images/back.png', 438, 420 ]
+342 silly gunzTarPerm extractEntry front-end/Images/breakpoint2.png
+343 silly gunzTarPerm modified mode [ 'front-end/Images/breakpoint2.png', 438, 420 ]
+344 silly gunzTarPerm extractEntry front-end/Images/breakpoint2_2x.png
+345 silly gunzTarPerm modified mode [ 'front-end/Images/breakpoint2_2x.png', 438, 420 ]
+346 silly gunzTarPerm extractEntry front-end/Images/breakpointBorder.png
+347 silly gunzTarPerm modified mode [ 'front-end/Images/breakpointBorder.png', 438, 420 ]
+348 silly gunzTarPerm extractEntry front-end/Images/breakpointConditional2.png
+349 silly gunzTarPerm modified mode [ 'front-end/Images/breakpointConditional2.png', 438, 420 ]
+350 silly gunzTarPerm extractEntry front-end/Images/breakpointConditional2_2x.png
+351 silly gunzTarPerm modified mode [ 'front-end/Images/breakpointConditional2_2x.png', 438, 420 ]
+352 silly gunzTarPerm extractEntry front-end/Images/breakpointConditionalBorder.png
+353 silly gunzTarPerm modified mode [ 'front-end/Images/breakpointConditionalBorder.png', 438, 420 ]
+354 silly gunzTarPerm extractEntry front-end/Images/breakpointConditionalCounterBorder.png
+355 silly gunzTarPerm modified mode [ 'front-end/Images/breakpointConditionalCounterBorder.png',
+355 silly gunzTarPerm   438,
+355 silly gunzTarPerm   420 ]
+356 silly gunzTarPerm extractEntry front-end/Images/breakpointCounterBorder.png
+357 silly gunzTarPerm modified mode [ 'front-end/Images/breakpointCounterBorder.png', 438, 420 ]
+358 silly gunzTarPerm extractEntry front-end/Images/checker.png
+359 silly gunzTarPerm modified mode [ 'front-end/Images/checker.png', 438, 420 ]
+360 silly gunzTarPerm extractEntry front-end/Images/cookie.png
+361 silly gunzTarPerm modified mode [ 'front-end/Images/cookie.png', 438, 420 ]
+362 silly gunzTarPerm extractEntry front-end/Images/database.png
+363 silly gunzTarPerm modified mode [ 'front-end/Images/database.png', 438, 420 ]
+364 silly gunzTarPerm extractEntry front-end/Images/databaseTable.png
+365 silly gunzTarPerm modified mode [ 'front-end/Images/databaseTable.png', 438, 420 ]
+366 silly gunzTarPerm extractEntry front-end/Images/deleteIcon.png
+367 silly gunzTarPerm modified mode [ 'front-end/Images/deleteIcon.png', 438, 420 ]
+368 silly gunzTarPerm extractEntry front-end/Images/domain.png
+369 silly gunzTarPerm modified mode [ 'front-end/Images/domain.png', 438, 420 ]
+370 silly gunzTarPerm extractEntry front-end/Images/fileSystem.png
+371 silly gunzTarPerm modified mode [ 'front-end/Images/fileSystem.png', 438, 420 ]
+372 silly gunzTarPerm extractEntry front-end/Images/forward.png
+373 silly gunzTarPerm modified mode [ 'front-end/Images/forward.png', 438, 420 ]
+374 silly gunzTarPerm extractEntry front-end/Images/frame.png
+375 silly gunzTarPerm modified mode [ 'front-end/Images/frame.png', 438, 420 ]
+376 silly gunzTarPerm extractEntry front-end/Images/glossyHeader.png
+377 silly gunzTarPerm modified mode [ 'front-end/Images/glossyHeader.png', 438, 420 ]
+378 silly gunzTarPerm extractEntry front-end/Images/glossyHeaderPressed.png
+379 silly gunzTarPerm modified mode [ 'front-end/Images/glossyHeaderPressed.png', 438, 420 ]
+380 silly gunzTarPerm extractEntry front-end/Images/glossyHeaderSelected.png
+381 silly gunzTarPerm modified mode [ 'front-end/Images/glossyHeaderSelected.png', 438, 420 ]
+382 silly gunzTarPerm extractEntry front-end/Images/glossyHeaderSelectedPressed.png
+383 silly gunzTarPerm modified mode [ 'front-end/Images/glossyHeaderSelectedPressed.png', 438, 420 ]
+384 silly gunzTarPerm extractEntry front-end/Images/graphLabelCalloutLeft.png
+385 silly gunzTarPerm modified mode [ 'front-end/Images/graphLabelCalloutLeft.png', 438, 420 ]
+386 silly gunzTarPerm extractEntry front-end/Images/graphLabelCalloutRight.png
+387 silly gunzTarPerm modified mode [ 'front-end/Images/graphLabelCalloutRight.png', 438, 420 ]
+388 silly gunzTarPerm extractEntry front-end/Images/indexedDB.png
+389 silly gunzTarPerm modified mode [ 'front-end/Images/indexedDB.png', 438, 420 ]
+390 silly gunzTarPerm extractEntry front-end/Images/indexedDBIndex.png
+391 silly gunzTarPerm modified mode [ 'front-end/Images/indexedDBIndex.png', 438, 420 ]
+392 silly gunzTarPerm extractEntry front-end/Images/indexedDBObjectStore.png
+393 silly gunzTarPerm modified mode [ 'front-end/Images/indexedDBObjectStore.png', 438, 420 ]
+394 silly gunzTarPerm extractEntry front-end/Images/localStorage.png
+395 silly gunzTarPerm modified mode [ 'front-end/Images/localStorage.png', 438, 420 ]
+396 silly gunzTarPerm extractEntry front-end/Images/namedFlowOverflow.png
+397 silly gunzTarPerm modified mode [ 'front-end/Images/namedFlowOverflow.png', 438, 420 ]
+398 silly gunzTarPerm extractEntry front-end/Images/paneAddButtons.png
+399 silly gunzTarPerm modified mode [ 'front-end/Images/paneAddButtons.png', 438, 420 ]
+400 silly gunzTarPerm extractEntry front-end/Images/paneElementStateButtons.png
+401 silly gunzTarPerm modified mode [ 'front-end/Images/paneElementStateButtons.png', 438, 420 ]
+402 silly gunzTarPerm extractEntry front-end/Images/paneFilterButtons.png
+403 silly gunzTarPerm modified mode [ 'front-end/Images/paneFilterButtons.png', 438, 420 ]
+404 silly gunzTarPerm extractEntry front-end/Images/paneRefreshButtons.png
+405 silly gunzTarPerm modified mode [ 'front-end/Images/paneRefreshButtons.png', 438, 420 ]
+406 silly gunzTarPerm extractEntry front-end/Images/paneSettingsButtons.png
+407 silly gunzTarPerm modified mode [ 'front-end/Images/paneSettingsButtons.png', 438, 420 ]
+408 silly gunzTarPerm extractEntry front-end/Images/popoverArrows.png
+409 silly gunzTarPerm modified mode [ 'front-end/Images/popoverArrows.png', 438, 420 ]
+410 silly gunzTarPerm extractEntry front-end/Images/popoverBackground.png
+411 silly gunzTarPerm modified mode [ 'front-end/Images/popoverBackground.png', 438, 420 ]
+412 silly gunzTarPerm extractEntry front-end/Images/profileGroupIcon.png
+413 silly gunzTarPerm modified mode [ 'front-end/Images/profileGroupIcon.png', 438, 420 ]
+414 silly gunzTarPerm extractEntry front-end/Images/profileIcon.png
+415 silly gunzTarPerm modified mode [ 'front-end/Images/profileIcon.png', 438, 420 ]
+416 silly gunzTarPerm extractEntry front-end/Images/profileSmallIcon.png
+417 silly gunzTarPerm modified mode [ 'front-end/Images/profileSmallIcon.png', 438, 420 ]
+418 silly gunzTarPerm extractEntry front-end/Images/programCounterBorder.png
+419 silly gunzTarPerm modified mode [ 'front-end/Images/programCounterBorder.png', 438, 420 ]
+420 silly gunzTarPerm extractEntry front-end/Images/radioDot.png
+421 silly gunzTarPerm modified mode [ 'front-end/Images/radioDot.png', 438, 420 ]
+422 silly gunzTarPerm extractEntry front-end/Images/regionEmpty.png
+423 silly gunzTarPerm modified mode [ 'front-end/Images/regionEmpty.png', 438, 420 ]
+424 silly gunzTarPerm extractEntry front-end/Images/regionFit.png
+425 silly gunzTarPerm modified mode [ 'front-end/Images/regionFit.png', 438, 420 ]
+426 silly gunzTarPerm extractEntry front-end/Images/regionOverset.png
+427 silly gunzTarPerm modified mode [ 'front-end/Images/regionOverset.png', 438, 420 ]
+428 silly gunzTarPerm extractEntry front-end/Images/resourceCSSIcon.png
+429 silly gunzTarPerm modified mode [ 'front-end/Images/resourceCSSIcon.png', 438, 420 ]
+430 silly gunzTarPerm extractEntry front-end/Images/resourceDocumentIcon.png
+431 silly gunzTarPerm modified mode [ 'front-end/Images/resourceDocumentIcon.png', 438, 420 ]
+432 silly gunzTarPerm extractEntry front-end/Images/resourceDocumentIconSmall.png
+433 silly gunzTarPerm modified mode [ 'front-end/Images/resourceDocumentIconSmall.png', 438, 420 ]
+434 silly gunzTarPerm extractEntry front-end/Images/resourceJSIcon.png
+435 silly gunzTarPerm modified mode [ 'front-end/Images/resourceJSIcon.png', 438, 420 ]
+436 silly gunzTarPerm extractEntry front-end/Images/resourcePlainIcon.png
+437 silly gunzTarPerm modified mode [ 'front-end/Images/resourcePlainIcon.png', 438, 420 ]
+438 silly gunzTarPerm extractEntry front-end/Images/resourcePlainIconSmall.png
+439 silly gunzTarPerm modified mode [ 'front-end/Images/resourcePlainIconSmall.png', 438, 420 ]
+440 silly gunzTarPerm extractEntry front-end/Images/resourcesTimeGraphIcon.png
+441 silly gunzTarPerm modified mode [ 'front-end/Images/resourcesTimeGraphIcon.png', 438, 420 ]
+442 silly gunzTarPerm extractEntry front-end/Images/searchNext.png
+443 silly gunzTarPerm modified mode [ 'front-end/Images/searchNext.png', 438, 420 ]
+444 silly gunzTarPerm extractEntry front-end/Images/searchPrev.png
+445 silly gunzTarPerm modified mode [ 'front-end/Images/searchPrev.png', 438, 420 ]
+446 silly gunzTarPerm extractEntry front-end/Images/searchSmallBlue.png
+447 silly gunzTarPerm modified mode [ 'front-end/Images/searchSmallBlue.png', 438, 420 ]
+448 silly gunzTarPerm extractEntry front-end/Images/searchSmallBrightBlue.png
+449 silly gunzTarPerm modified mode [ 'front-end/Images/searchSmallBrightBlue.png', 438, 420 ]
+450 silly gunzTarPerm extractEntry front-end/Images/searchSmallGray.png
+451 silly gunzTarPerm modified mode [ 'front-end/Images/searchSmallGray.png', 438, 420 ]
+452 silly gunzTarPerm extractEntry front-end/Images/searchSmallWhite.png
+453 silly gunzTarPerm modified mode [ 'front-end/Images/searchSmallWhite.png', 438, 420 ]
+454 silly gunzTarPerm extractEntry front-end/Images/segment.png
+455 silly gunzTarPerm modified mode [ 'front-end/Images/segment.png', 438, 420 ]
+456 silly gunzTarPerm extractEntry front-end/Images/segmentEnd.png
+457 silly gunzTarPerm modified mode [ 'front-end/Images/segmentEnd.png', 438, 420 ]
+458 silly gunzTarPerm extractEntry front-end/Images/segmentHover.png
+459 silly gunzTarPerm modified mode [ 'front-end/Images/segmentHover.png', 438, 420 ]
+460 silly gunzTarPerm extractEntry front-end/Images/segmentHoverEnd.png
+461 silly gunzTarPerm modified mode [ 'front-end/Images/segmentHoverEnd.png', 438, 420 ]
+462 silly gunzTarPerm extractEntry front-end/Images/segmentSelected.png
+463 silly gunzTarPerm modified mode [ 'front-end/Images/segmentSelected.png', 438, 420 ]
+464 silly gunzTarPerm extractEntry front-end/Images/segmentSelectedEnd.png
+465 silly gunzTarPerm modified mode [ 'front-end/Images/segmentSelectedEnd.png', 438, 420 ]
+466 silly gunzTarPerm extractEntry front-end/Images/sessionStorage.png
+467 silly gunzTarPerm modified mode [ 'front-end/Images/sessionStorage.png', 438, 420 ]
+468 silly gunzTarPerm extractEntry front-end/Images/settingsListRemove.png
+469 silly gunzTarPerm modified mode [ 'front-end/Images/settingsListRemove.png', 438, 420 ]
+470 silly gunzTarPerm extractEntry front-end/Images/settingsListRemove_2x.png
+471 silly gunzTarPerm modified mode [ 'front-end/Images/settingsListRemove_2x.png', 438, 420 ]
+472 silly gunzTarPerm extractEntry front-end/Images/spinner.gif
+473 silly gunzTarPerm modified mode [ 'front-end/Images/spinner.gif', 438, 420 ]
+474 silly gunzTarPerm extractEntry front-end/Images/spinnerActive.gif
+475 silly gunzTarPerm modified mode [ 'front-end/Images/spinnerActive.gif', 438, 420 ]
+476 silly gunzTarPerm extractEntry front-end/Images/spinnerActiveSelected.gif
+477 silly gunzTarPerm modified mode [ 'front-end/Images/spinnerActiveSelected.gif', 438, 420 ]
+478 silly gunzTarPerm extractEntry front-end/Images/spinnerInactive.gif
+479 silly gunzTarPerm modified mode [ 'front-end/Images/spinnerInactive.gif', 438, 420 ]
+480 silly gunzTarPerm extractEntry front-end/Images/spinnerInactiveSelected.gif
+481 silly gunzTarPerm modified mode [ 'front-end/Images/spinnerInactiveSelected.gif', 438, 420 ]
+482 silly gunzTarPerm extractEntry front-end/Images/src/
+483 silly gunzTarPerm modified mode [ 'front-end/Images/src/', 438, 493 ]
+484 silly gunzTarPerm extractEntry front-end/Images/src/breakpoints2.svg
+485 silly gunzTarPerm modified mode [ 'front-end/Images/src/breakpoints2.svg', 438, 420 ]
+486 silly gunzTarPerm extractEntry front-end/Images/src/settingListRemove.svg
+487 silly gunzTarPerm modified mode [ 'front-end/Images/src/settingListRemove.svg', 438, 420 ]
+488 silly gunzTarPerm extractEntry front-end/Images/src/statusbarButtonGlyphs.svg
+489 silly gunzTarPerm modified mode [ 'front-end/Images/src/statusbarButtonGlyphs.svg', 438, 420 ]
+490 silly gunzTarPerm extractEntry front-end/Images/statusbarButtonGlyphs.png
+491 silly gunzTarPerm modified mode [ 'front-end/Images/statusbarButtonGlyphs.png', 438, 420 ]
+492 silly gunzTarPerm extractEntry front-end/Images/statusbarButtonGlyphs2x.png
+493 silly gunzTarPerm modified mode [ 'front-end/Images/statusbarButtonGlyphs2x.png', 438, 420 ]
+494 silly gunzTarPerm extractEntry front-end/Images/statusbarResizerHorizontal.png
+495 silly gunzTarPerm modified mode [ 'front-end/Images/statusbarResizerHorizontal.png', 438, 420 ]
+496 silly gunzTarPerm extractEntry front-end/Images/statusbarResizerVertical.png
+497 silly gunzTarPerm modified mode [ 'front-end/Images/statusbarResizerVertical.png', 438, 420 ]
+498 silly gunzTarPerm extractEntry front-end/Images/thumbActiveHoriz.png
+499 silly gunzTarPerm modified mode [ 'front-end/Images/thumbActiveHoriz.png', 438, 420 ]
+500 silly gunzTarPerm extractEntry front-end/Images/thumbActiveVert.png
+501 silly gunzTarPerm modified mode [ 'front-end/Images/thumbActiveVert.png', 438, 420 ]
+502 silly gunzTarPerm extractEntry front-end/Images/thumbHoriz.png
+503 silly gunzTarPerm modified mode [ 'front-end/Images/thumbHoriz.png', 438, 420 ]
+504 silly gunzTarPerm extractEntry front-end/Images/thumbHoverHoriz.png
+505 silly gunzTarPerm modified mode [ 'front-end/Images/thumbHoverHoriz.png', 438, 420 ]
+506 silly gunzTarPerm extractEntry front-end/Images/thumbHoverVert.png
+507 silly gunzTarPerm modified mode [ 'front-end/Images/thumbHoverVert.png', 438, 420 ]
+508 silly gunzTarPerm extractEntry front-end/Images/thumbVert.png
+509 silly gunzTarPerm modified mode [ 'front-end/Images/thumbVert.png', 438, 420 ]
+510 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillBlue.png
+511 silly gunzTarPerm modified mode [ 'front-end/Images/timelineHollowPillBlue.png', 438, 420 ]
+512 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillGray.png
+513 silly gunzTarPerm modified mode [ 'front-end/Images/timelineHollowPillGray.png', 438, 420 ]
+514 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillGreen.png
+515 silly gunzTarPerm modified mode [ 'front-end/Images/timelineHollowPillGreen.png', 438, 420 ]
+516 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillOrange.png
+517 silly gunzTarPerm modified mode [ 'front-end/Images/timelineHollowPillOrange.png', 438, 420 ]
+518 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillPurple.png
+519 silly gunzTarPerm modified mode [ 'front-end/Images/timelineHollowPillPurple.png', 438, 420 ]
+520 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillRed.png
+521 silly gunzTarPerm modified mode [ 'front-end/Images/timelineHollowPillRed.png', 438, 420 ]
+522 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillYellow.png
+523 silly gunzTarPerm modified mode [ 'front-end/Images/timelineHollowPillYellow.png', 438, 420 ]
+524 silly gunzTarPerm extractEntry front-end/Images/timelinePillBlue.png
+525 silly gunzTarPerm modified mode [ 'front-end/Images/timelinePillBlue.png', 438, 420 ]
+526 silly gunzTarPerm extractEntry front-end/Images/timelinePillGray.png
+527 silly gunzTarPerm modified mode [ 'front-end/Images/timelinePillGray.png', 438, 420 ]
+528 silly gunzTarPerm extractEntry front-end/Images/timelinePillGreen.png
+529 silly gunzTarPerm modified mode [ 'front-end/Images/timelinePillGreen.png', 438, 420 ]
+530 silly gunzTarPerm extractEntry front-end/Images/timelinePillOrange.png
+531 silly gunzTarPerm modified mode [ 'front-end/Images/timelinePillOrange.png', 438, 420 ]
+532 silly gunzTarPerm extractEntry front-end/Images/timelinePillPurple.png
+533 silly gunzTarPerm modified mode [ 'front-end/Images/timelinePillPurple.png', 438, 420 ]
+534 silly gunzTarPerm extractEntry front-end/Images/timelinePillRed.png
+535 silly gunzTarPerm modified mode [ 'front-end/Images/timelinePillRed.png', 438, 420 ]
+536 silly gunzTarPerm extractEntry front-end/Images/timelinePillYellow.png
+537 silly gunzTarPerm modified mode [ 'front-end/Images/timelinePillYellow.png', 438, 420 ]
+538 silly gunzTarPerm extractEntry front-end/Images/toolbarItemSelected.png
+539 silly gunzTarPerm modified mode [ 'front-end/Images/toolbarItemSelected.png', 438, 420 ]
+540 silly gunzTarPerm extractEntry front-end/Images/trackHoriz.png
+541 silly gunzTarPerm modified mode [ 'front-end/Images/trackHoriz.png', 438, 420 ]
+542 silly gunzTarPerm extractEntry front-end/Images/trackVert.png
+543 silly gunzTarPerm modified mode [ 'front-end/Images/trackVert.png', 438, 420 ]
+544 silly gunzTarPerm extractEntry front-end/ImageView.js
+545 silly gunzTarPerm modified mode [ 'front-end/ImageView.js', 438, 420 ]
+546 silly gunzTarPerm extractEntry front-end/IndexedDBModel.js
+547 silly gunzTarPerm modified mode [ 'front-end/IndexedDBModel.js', 438, 420 ]
+548 silly gunzTarPerm extractEntry front-end/indexedDBViews.css
+549 silly gunzTarPerm modified mode [ 'front-end/indexedDBViews.css', 438, 420 ]
+550 silly gunzTarPerm extractEntry front-end/IndexedDBViews.js
+551 silly gunzTarPerm modified mode [ 'front-end/IndexedDBViews.js', 438, 420 ]
+552 silly gunzTarPerm extractEntry front-end/InspectElementModeController.js
+553 silly gunzTarPerm modified mode [ 'front-end/InspectElementModeController.js', 438, 420 ]
+554 silly gunzTarPerm extractEntry front-end/inspector.css
+555 silly gunzTarPerm modified mode [ 'front-end/inspector.css', 438, 420 ]
+556 silly gunzTarPerm extractEntry front-end/inspector.html
+557 silly gunzTarPerm modified mode [ 'front-end/inspector.html', 438, 420 ]
+558 silly gunzTarPerm extractEntry front-end/inspector.js
+559 silly gunzTarPerm modified mode [ 'front-end/inspector.js', 438, 420 ]
+560 silly gunzTarPerm extractEntry front-end/InspectorBackend.js
+561 silly gunzTarPerm modified mode [ 'front-end/InspectorBackend.js', 438, 420 ]
+562 silly gunzTarPerm extractEntry front-end/InspectorBackendCommands.js
+563 silly gunzTarPerm modified mode [ 'front-end/InspectorBackendCommands.js', 438, 420 ]
+564 silly gunzTarPerm extractEntry front-end/inspectorCommon.css
+565 silly gunzTarPerm modified mode [ 'front-end/inspectorCommon.css', 438, 420 ]
+566 silly gunzTarPerm extractEntry front-end/InspectorFrontendAPI.js
+567 silly gunzTarPerm modified mode [ 'front-end/InspectorFrontendAPI.js', 438, 420 ]
+568 silly gunzTarPerm extractEntry front-end/InspectorFrontendHostStub.js
+569 silly gunzTarPerm modified mode [ 'front-end/InspectorFrontendHostStub.js', 438, 420 ]
+570 silly gunzTarPerm extractEntry front-end/inspectorSyntaxHighlight.css
+571 silly gunzTarPerm modified mode [ 'front-end/inspectorSyntaxHighlight.css', 438, 420 ]
+572 silly gunzTarPerm extractEntry front-end/InspectorView.js
+573 silly gunzTarPerm modified mode [ 'front-end/InspectorView.js', 438, 420 ]
+574 silly gunzTarPerm extractEntry front-end/IsolatedFileSystem.js
+575 silly gunzTarPerm modified mode [ 'front-end/IsolatedFileSystem.js', 438, 420 ]
+576 silly gunzTarPerm extractEntry front-end/IsolatedFileSystemManager.js
+577 silly gunzTarPerm modified mode [ 'front-end/IsolatedFileSystemManager.js', 438, 420 ]
+578 silly gunzTarPerm extractEntry front-end/JavaScriptFormatter.js
+579 silly gunzTarPerm modified mode [ 'front-end/JavaScriptFormatter.js', 438, 420 ]
+580 silly gunzTarPerm extractEntry front-end/JavaScriptSourceFrame.js
+581 silly gunzTarPerm modified mode [ 'front-end/JavaScriptSourceFrame.js', 438, 420 ]
+582 silly gunzTarPerm extractEntry front-end/jsdifflib.js
+583 silly gunzTarPerm modified mode [ 'front-end/jsdifflib.js', 438, 420 ]
+584 silly gunzTarPerm extractEntry front-end/JSHeapSnapshot.js
+585 silly gunzTarPerm modified mode [ 'front-end/JSHeapSnapshot.js', 438, 420 ]
+586 silly gunzTarPerm extractEntry front-end/KeyboardShortcut.js
+587 silly gunzTarPerm modified mode [ 'front-end/KeyboardShortcut.js', 438, 420 ]
+588 silly gunzTarPerm extractEntry front-end/LayerDetailsView.js
+589 silly gunzTarPerm modified mode [ 'front-end/LayerDetailsView.js', 438, 420 ]
+590 silly gunzTarPerm extractEntry front-end/Layers3DView.js
+591 silly gunzTarPerm modified mode [ 'front-end/Layers3DView.js', 438, 420 ]
+592 silly gunzTarPerm extractEntry front-end/layersPanel.css
+593 silly gunzTarPerm modified mode [ 'front-end/layersPanel.css', 438, 420 ]
+594 silly gunzTarPerm extractEntry front-end/LayersPanel.js
+595 silly gunzTarPerm modified mode [ 'front-end/LayersPanel.js', 438, 420 ]
+596 silly gunzTarPerm extractEntry front-end/LayersPanelDescriptor.js
+597 silly gunzTarPerm modified mode [ 'front-end/LayersPanelDescriptor.js', 438, 420 ]
+598 silly gunzTarPerm extractEntry front-end/LayerTree.js
+599 silly gunzTarPerm modified mode [ 'front-end/LayerTree.js', 438, 420 ]
+600 silly gunzTarPerm extractEntry front-end/LayerTreeModel.js
+601 silly gunzTarPerm modified mode [ 'front-end/LayerTreeModel.js', 438, 420 ]
+602 silly gunzTarPerm extractEntry front-end/Linkifier.js
+603 silly gunzTarPerm modified mode [ 'front-end/Linkifier.js', 438, 420 ]
+604 silly gunzTarPerm extractEntry front-end/LiveEditSupport.js
+605 silly gunzTarPerm modified mode [ 'front-end/LiveEditSupport.js', 438, 420 ]
+606 silly gunzTarPerm extractEntry front-end/MemoryStatistics.js
+607 silly gunzTarPerm modified mode [ 'front-end/MemoryStatistics.js', 438, 420 ]
+608 silly gunzTarPerm extractEntry front-end/MetricsSidebarPane.js
+609 silly gunzTarPerm modified mode [ 'front-end/MetricsSidebarPane.js', 438, 420 ]
+610 silly gunzTarPerm extractEntry front-end/NativeBreakpointsSidebarPane.js
+611 silly gunzTarPerm modified mode [ 'front-end/NativeBreakpointsSidebarPane.js', 438, 420 ]
+612 silly gunzTarPerm extractEntry front-end/NavigatorOverlayController.js
+613 silly gunzTarPerm modified mode [ 'front-end/NavigatorOverlayController.js', 438, 420 ]
+614 silly gunzTarPerm extractEntry front-end/navigatorView.css
+615 silly gunzTarPerm modified mode [ 'front-end/navigatorView.css', 438, 420 ]
+616 silly gunzTarPerm extractEntry front-end/NavigatorView.js
+617 silly gunzTarPerm modified mode [ 'front-end/NavigatorView.js', 438, 420 ]
+618 silly gunzTarPerm extractEntry front-end/NetworkItemView.js
+619 silly gunzTarPerm modified mode [ 'front-end/NetworkItemView.js', 438, 420 ]
+620 silly gunzTarPerm extractEntry front-end/NetworkLog.js
+621 silly gunzTarPerm modified mode [ 'front-end/NetworkLog.js', 438, 420 ]
+622 silly gunzTarPerm extractEntry front-end/networkLogView.css
+623 silly gunzTarPerm modified mode [ 'front-end/networkLogView.css', 438, 420 ]
+624 silly gunzTarPerm extractEntry front-end/NetworkManager.js
+625 silly gunzTarPerm modified mode [ 'front-end/NetworkManager.js', 438, 420 ]
+626 silly gunzTarPerm extractEntry front-end/networkPanel.css
+627 silly gunzTarPerm modified mode [ 'front-end/networkPanel.css', 438, 420 ]
+628 silly gunzTarPerm extractEntry front-end/NetworkPanel.js
+629 silly gunzTarPerm modified mode [ 'front-end/NetworkPanel.js', 438, 420 ]
+630 silly gunzTarPerm extractEntry front-end/NetworkPanelDescriptor.js
+631 silly gunzTarPerm modified mode [ 'front-end/NetworkPanelDescriptor.js', 438, 420 ]
+632 silly gunzTarPerm extractEntry front-end/NetworkRequest.js
+633 silly gunzTarPerm modified mode [ 'front-end/NetworkRequest.js', 438, 420 ]
+634 silly gunzTarPerm extractEntry front-end/NetworkUISourceCodeProvider.js
+635 silly gunzTarPerm modified mode [ 'front-end/NetworkUISourceCodeProvider.js', 438, 420 ]
+636 silly gunzTarPerm extractEntry front-end/Object.js
+637 silly gunzTarPerm modified mode [ 'front-end/Object.js', 438, 420 ]
+638 silly gunzTarPerm extractEntry front-end/ObjectPopoverHelper.js
+639 silly gunzTarPerm modified mode [ 'front-end/ObjectPopoverHelper.js', 438, 420 ]
+640 silly gunzTarPerm extractEntry front-end/ObjectPropertiesSection.js
+641 silly gunzTarPerm modified mode [ 'front-end/ObjectPropertiesSection.js', 438, 420 ]
+642 silly gunzTarPerm extractEntry front-end/OverridesSupport.js
+643 silly gunzTarPerm modified mode [ 'front-end/OverridesSupport.js', 438, 420 ]
+644 silly gunzTarPerm extractEntry front-end/OverridesView.js
+645 silly gunzTarPerm modified mode [ 'front-end/OverridesView.js', 438, 420 ]
+646 silly gunzTarPerm extractEntry front-end/OverviewGrid.js
+647 silly gunzTarPerm modified mode [ 'front-end/OverviewGrid.js', 438, 420 ]
+648 silly gunzTarPerm extractEntry front-end/OWNERS
+649 silly gunzTarPerm modified mode [ 'front-end/OWNERS', 438, 420 ]
+650 silly gunzTarPerm extractEntry front-end/Panel.js
+651 silly gunzTarPerm modified mode [ 'front-end/Panel.js', 438, 420 ]
+652 silly gunzTarPerm extractEntry front-end/panelEnablerView.css
+653 silly gunzTarPerm modified mode [ 'front-end/panelEnablerView.css', 438, 420 ]
+654 silly gunzTarPerm extractEntry front-end/ParsedURL.js
+655 silly gunzTarPerm modified mode [ 'front-end/ParsedURL.js', 438, 420 ]
+656 silly gunzTarPerm extractEntry front-end/Placard.js
+657 silly gunzTarPerm modified mode [ 'front-end/Placard.js', 438, 420 ]
+658 silly gunzTarPerm extractEntry front-end/PlatformFontsSidebarPane.js
+659 silly gunzTarPerm modified mode [ 'front-end/PlatformFontsSidebarPane.js', 438, 420 ]
+660 silly gunzTarPerm extractEntry front-end/popover.css
+661 silly gunzTarPerm modified mode [ 'front-end/popover.css', 438, 420 ]
+662 silly gunzTarPerm extractEntry front-end/Popover.js
+663 silly gunzTarPerm modified mode [ 'front-end/Popover.js', 438, 420 ]
+664 silly gunzTarPerm extractEntry front-end/PresentationConsoleMessageHelper.js
+665 silly gunzTarPerm modified mode [ 'front-end/PresentationConsoleMessageHelper.js', 438, 420 ]
+666 silly gunzTarPerm extractEntry front-end/ProfileDataGridTree.js
+667 silly gunzTarPerm modified mode [ 'front-end/ProfileDataGridTree.js', 438, 420 ]
+668 silly gunzTarPerm extractEntry front-end/ProfileLauncherView.js
+669 silly gunzTarPerm modified mode [ 'front-end/ProfileLauncherView.js', 438, 420 ]
+670 silly gunzTarPerm extractEntry front-end/profilesPanel.css
+671 silly gunzTarPerm modified mode [ 'front-end/profilesPanel.css', 438, 420 ]
+672 silly gunzTarPerm extractEntry front-end/ProfilesPanel.js
+673 silly gunzTarPerm modified mode [ 'front-end/ProfilesPanel.js', 438, 420 ]
+674 silly gunzTarPerm extractEntry front-end/ProfilesPanelDescriptor.js
+675 silly gunzTarPerm modified mode [ 'front-end/ProfilesPanelDescriptor.js', 438, 420 ]
+676 silly gunzTarPerm extractEntry front-end/Progress.js
+677 silly gunzTarPerm modified mode [ 'front-end/Progress.js', 438, 420 ]
+678 silly gunzTarPerm extractEntry front-end/ProgressIndicator.js
+679 silly gunzTarPerm modified mode [ 'front-end/ProgressIndicator.js', 438, 420 ]
+680 silly gunzTarPerm extractEntry front-end/PropertiesSection.js
+681 silly gunzTarPerm modified mode [ 'front-end/PropertiesSection.js', 438, 420 ]
+682 silly gunzTarPerm extractEntry front-end/PropertiesSidebarPane.js
+683 silly gunzTarPerm modified mode [ 'front-end/PropertiesSidebarPane.js', 438, 420 ]
+684 silly gunzTarPerm extractEntry front-end/RawSourceCode.js
+685 silly gunzTarPerm modified mode [ 'front-end/RawSourceCode.js', 438, 420 ]
+686 silly gunzTarPerm extractEntry front-end/RemoteObject.js
+687 silly gunzTarPerm modified mode [ 'front-end/RemoteObject.js', 438, 420 ]
+688 silly gunzTarPerm extractEntry front-end/RequestCookiesView.js
+689 silly gunzTarPerm modified mode [ 'front-end/RequestCookiesView.js', 438, 420 ]
+690 silly gunzTarPerm extractEntry front-end/RequestHeadersView.js
+691 silly gunzTarPerm modified mode [ 'front-end/RequestHeadersView.js', 438, 420 ]
+692 silly gunzTarPerm extractEntry front-end/RequestHTMLView.js
+693 silly gunzTarPerm modified mode [ 'front-end/RequestHTMLView.js', 438, 420 ]
+694 silly gunzTarPerm extractEntry front-end/RequestJSONView.js
+695 silly gunzTarPerm modified mode [ 'front-end/RequestJSONView.js', 438, 420 ]
+696 silly gunzTarPerm extractEntry front-end/RequestPreviewView.js
+697 silly gunzTarPerm modified mode [ 'front-end/RequestPreviewView.js', 438, 420 ]
+698 silly gunzTarPerm extractEntry front-end/RequestResponseView.js
+699 silly gunzTarPerm modified mode [ 'front-end/RequestResponseView.js', 438, 420 ]
+700 silly gunzTarPerm extractEntry front-end/RequestTimingView.js
+701 silly gunzTarPerm modified mode [ 'front-end/RequestTimingView.js', 438, 420 ]
+702 silly gunzTarPerm extractEntry front-end/RequestView.js
+703 silly gunzTarPerm modified mode [ 'front-end/RequestView.js', 438, 420 ]
+704 silly gunzTarPerm extractEntry front-end/Resource.js
+705 silly gunzTarPerm modified mode [ 'front-end/Resource.js', 438, 420 ]
+706 silly gunzTarPerm extractEntry front-end/ResourceScriptMapping.js
+707 silly gunzTarPerm modified mode [ 'front-end/ResourceScriptMapping.js', 438, 420 ]
+708 silly gunzTarPerm extractEntry front-end/resourcesPanel.css
+709 silly gunzTarPerm modified mode [ 'front-end/resourcesPanel.css', 438, 420 ]
+710 silly gunzTarPerm extractEntry front-end/ResourcesPanel.js
+711 silly gunzTarPerm modified mode [ 'front-end/ResourcesPanel.js', 438, 420 ]
+712 silly gunzTarPerm extractEntry front-end/ResourceTreeModel.js
+713 silly gunzTarPerm modified mode [ 'front-end/ResourceTreeModel.js', 438, 420 ]
+714 silly gunzTarPerm extractEntry front-end/ResourceType.js
+715 silly gunzTarPerm modified mode [ 'front-end/ResourceType.js', 438, 420 ]
+716 silly gunzTarPerm extractEntry front-end/ResourceUtils.js
+717 silly gunzTarPerm modified mode [ 'front-end/ResourceUtils.js', 438, 420 ]
+718 silly gunzTarPerm extractEntry front-end/resourceView.css
+719 silly gunzTarPerm modified mode [ 'front-end/resourceView.css', 438, 420 ]
+720 silly gunzTarPerm extractEntry front-end/ResourceView.js
+721 silly gunzTarPerm modified mode [ 'front-end/ResourceView.js', 438, 420 ]
+722 silly gunzTarPerm extractEntry front-end/ResourceWebSocketFrameView.js
+723 silly gunzTarPerm modified mode [ 'front-end/ResourceWebSocketFrameView.js', 438, 420 ]
+724 silly gunzTarPerm extractEntry front-end/revisionHistory.css
+725 silly gunzTarPerm modified mode [ 'front-end/revisionHistory.css', 438, 420 ]
+726 silly gunzTarPerm extractEntry front-end/RevisionHistoryView.js
+727 silly gunzTarPerm modified mode [ 'front-end/RevisionHistoryView.js', 438, 420 ]
+728 silly gunzTarPerm extractEntry front-end/RuntimeModel.js
+729 silly gunzTarPerm modified mode [ 'front-end/RuntimeModel.js', 438, 420 ]
+730 silly gunzTarPerm extractEntry front-end/SASSSourceMapping.js
+731 silly gunzTarPerm modified mode [ 'front-end/SASSSourceMapping.js', 438, 420 ]
+732 silly gunzTarPerm extractEntry front-end/ScopeChainSidebarPane.js
+733 silly gunzTarPerm modified mode [ 'front-end/ScopeChainSidebarPane.js', 438, 420 ]
+734 silly gunzTarPerm extractEntry front-end/screencastView.css
+735 silly gunzTarPerm modified mode [ 'front-end/screencastView.css', 438, 420 ]
+736 silly gunzTarPerm extractEntry front-end/ScreencastView.js
+737 silly gunzTarPerm modified mode [ 'front-end/ScreencastView.js', 438, 420 ]
+738 silly gunzTarPerm extractEntry front-end/Script.js
+739 silly gunzTarPerm modified mode [ 'front-end/Script.js', 438, 420 ]
+740 silly gunzTarPerm extractEntry front-end/ScriptFormatter.js
+741 silly gunzTarPerm modified mode [ 'front-end/ScriptFormatter.js', 438, 420 ]
+742 silly gunzTarPerm extractEntry front-end/ScriptFormatterWorker.js
+743 silly gunzTarPerm modified mode [ 'front-end/ScriptFormatterWorker.js', 438, 420 ]
+744 silly gunzTarPerm extractEntry front-end/ScriptsNavigator.js
+745 silly gunzTarPerm modified mode [ 'front-end/ScriptsNavigator.js', 438, 420 ]
+746 silly gunzTarPerm extractEntry front-end/ScriptSnippetModel.js
+747 silly gunzTarPerm modified mode [ 'front-end/ScriptSnippetModel.js', 438, 420 ]
+748 silly gunzTarPerm extractEntry front-end/scriptsPanel.css
+749 silly gunzTarPerm modified mode [ 'front-end/scriptsPanel.css', 438, 420 ]
+750 silly gunzTarPerm extractEntry front-end/ScriptsPanel.js
+751 silly gunzTarPerm modified mode [ 'front-end/ScriptsPanel.js', 438, 420 ]
+752 silly gunzTarPerm extractEntry front-end/ScriptsPanelDescriptor.js
+753 silly gunzTarPerm modified mode [ 'front-end/ScriptsPanelDescriptor.js', 438, 420 ]
+754 silly gunzTarPerm extractEntry front-end/ScriptsSearchScope.js
+755 silly gunzTarPerm modified mode [ 'front-end/ScriptsSearchScope.js', 438, 420 ]
+756 silly gunzTarPerm extractEntry front-end/SearchController.js
+757 silly gunzTarPerm modified mode [ 'front-end/SearchController.js', 438, 420 ]
+758 silly gunzTarPerm extractEntry front-end/Section.js
+759 silly gunzTarPerm modified mode [ 'front-end/Section.js', 438, 420 ]
+760 silly gunzTarPerm extractEntry front-end/Settings.js
+761 silly gunzTarPerm modified mode [ 'front-end/Settings.js', 438, 420 ]
+762 silly gunzTarPerm extractEntry front-end/SettingsScreen.js
+763 silly gunzTarPerm modified mode [ 'front-end/SettingsScreen.js', 438, 420 ]
+764 silly gunzTarPerm extractEntry front-end/ShortcutsScreen.js
+765 silly gunzTarPerm modified mode [ 'front-end/ShortcutsScreen.js', 438, 420 ]
+766 silly gunzTarPerm extractEntry front-end/ShowMoreDataGridNode.js
+767 silly gunzTarPerm modified mode [ 'front-end/ShowMoreDataGridNode.js', 438, 420 ]
+768 silly gunzTarPerm extractEntry front-end/SidebarOverlay.js
+769 silly gunzTarPerm modified mode [ 'front-end/SidebarOverlay.js', 438, 420 ]
+770 silly gunzTarPerm extractEntry front-end/sidebarPane.css
+771 silly gunzTarPerm modified mode [ 'front-end/sidebarPane.css', 438, 420 ]
+772 silly gunzTarPerm extractEntry front-end/SidebarPane.js
+773 silly gunzTarPerm modified mode [ 'front-end/SidebarPane.js', 438, 420 ]
+774 silly gunzTarPerm extractEntry front-end/SidebarTreeElement.js
+775 silly gunzTarPerm modified mode [ 'front-end/SidebarTreeElement.js', 438, 420 ]
+776 silly gunzTarPerm extractEntry front-end/SidebarView.js
+777 silly gunzTarPerm modified mode [ 'front-end/SidebarView.js', 438, 420 ]
+778 silly gunzTarPerm extractEntry front-end/SimpleWorkspaceProvider.js
+779 silly gunzTarPerm modified mode [ 'front-end/SimpleWorkspaceProvider.js', 438, 420 ]
+780 silly gunzTarPerm extractEntry front-end/SnippetStorage.js
+781 silly gunzTarPerm modified mode [ 'front-end/SnippetStorage.js', 438, 420 ]
+782 silly gunzTarPerm extractEntry front-end/SoftContextMenu.js
+783 silly gunzTarPerm modified mode [ 'front-end/SoftContextMenu.js', 438, 420 ]
+784 silly gunzTarPerm extractEntry front-end/SourceFrame.js
+785 silly gunzTarPerm modified mode [ 'front-end/SourceFrame.js', 438, 420 ]
+786 silly gunzTarPerm extractEntry front-end/SourceMap.js
+787 silly gunzTarPerm modified mode [ 'front-end/SourceMap.js', 438, 420 ]
+788 silly gunzTarPerm extractEntry front-end/SourceMapping.js
+789 silly gunzTarPerm modified mode [ 'front-end/SourceMapping.js', 438, 420 ]
+790 silly gunzTarPerm extractEntry front-end/spectrum.css
+791 silly gunzTarPerm modified mode [ 'front-end/spectrum.css', 438, 420 ]
+792 silly gunzTarPerm extractEntry front-end/Spectrum.js
+793 silly gunzTarPerm modified mode [ 'front-end/Spectrum.js', 438, 420 ]
+794 silly gunzTarPerm extractEntry front-end/splitView.css
+795 silly gunzTarPerm modified mode [ 'front-end/splitView.css', 438, 420 ]
+796 silly gunzTarPerm extractEntry front-end/SplitView.js
+797 silly gunzTarPerm modified mode [ 'front-end/SplitView.js', 438, 420 ]
+798 silly gunzTarPerm extractEntry front-end/StatusBarButton.js
+799 silly gunzTarPerm modified mode [ 'front-end/StatusBarButton.js', 438, 420 ]
+800 silly gunzTarPerm extractEntry front-end/StyleSheetOutlineDialog.js
+801 silly gunzTarPerm modified mode [ 'front-end/StyleSheetOutlineDialog.js', 438, 420 ]
+802 silly gunzTarPerm extractEntry front-end/StylesSidebarPane.js
+803 silly gunzTarPerm modified mode [ 'front-end/StylesSidebarPane.js', 438, 420 ]
+804 silly gunzTarPerm extractEntry front-end/StylesSourceMapping.js
+805 silly gunzTarPerm modified mode [ 'front-end/StylesSourceMapping.js', 438, 420 ]
+806 silly gunzTarPerm extractEntry front-end/SuggestBox.js
+807 silly gunzTarPerm modified mode [ 'front-end/SuggestBox.js', 438, 420 ]
+808 silly gunzTarPerm extractEntry front-end/TabbedEditorContainer.js
+809 silly gunzTarPerm modified mode [ 'front-end/TabbedEditorContainer.js', 438, 420 ]
+810 silly gunzTarPerm extractEntry front-end/tabbedPane.css
+811 silly gunzTarPerm modified mode [ 'front-end/tabbedPane.css', 438, 420 ]
+812 silly gunzTarPerm extractEntry front-end/TabbedPane.js
+813 silly gunzTarPerm modified mode [ 'front-end/TabbedPane.js', 438, 420 ]
+814 silly gunzTarPerm extractEntry front-end/test-runner.html
+815 silly gunzTarPerm modified mode [ 'front-end/test-runner.html', 438, 420 ]
+816 silly gunzTarPerm extractEntry front-end/TestController.js
+817 silly gunzTarPerm modified mode [ 'front-end/TestController.js', 438, 420 ]
+818 silly gunzTarPerm extractEntry front-end/Tests.js
+819 silly gunzTarPerm modified mode [ 'front-end/Tests.js', 438, 420 ]
+820 silly gunzTarPerm extractEntry front-end/TextEditor.js
+821 silly gunzTarPerm modified mode [ 'front-end/TextEditor.js', 438, 420 ]
+822 silly gunzTarPerm extractEntry front-end/textPrompt.css
+823 silly gunzTarPerm modified mode [ 'front-end/textPrompt.css', 438, 420 ]
+824 silly gunzTarPerm extractEntry front-end/TextPrompt.js
+825 silly gunzTarPerm modified mode [ 'front-end/TextPrompt.js', 438, 420 ]
+826 silly gunzTarPerm extractEntry front-end/TextRange.js
+827 silly gunzTarPerm modified mode [ 'front-end/TextRange.js', 438, 420 ]
+828 silly gunzTarPerm extractEntry front-end/TextUtils.js
+829 silly gunzTarPerm modified mode [ 'front-end/TextUtils.js', 438, 420 ]
+830 silly gunzTarPerm extractEntry front-end/TimelineFrameController.js
+831 silly gunzTarPerm modified mode [ 'front-end/TimelineFrameController.js', 438, 420 ]
+832 silly gunzTarPerm extractEntry front-end/TimelineGrid.js
+833 silly gunzTarPerm modified mode [ 'front-end/TimelineGrid.js', 438, 420 ]
+834 silly gunzTarPerm extractEntry front-end/TimelineManager.js
+835 silly gunzTarPerm modified mode [ 'front-end/TimelineManager.js', 438, 420 ]
+836 silly gunzTarPerm extractEntry front-end/TimelineModel.js
+837 silly gunzTarPerm modified mode [ 'front-end/TimelineModel.js', 438, 420 ]
+838 silly gunzTarPerm extractEntry front-end/TimelineOverviewPane.js
+839 silly gunzTarPerm modified mode [ 'front-end/TimelineOverviewPane.js', 438, 420 ]
+840 silly gunzTarPerm extractEntry front-end/timelinePanel.css
+841 silly gunzTarPerm modified mode [ 'front-end/timelinePanel.css', 438, 420 ]
+842 silly gunzTarPerm extractEntry front-end/TimelinePanel.js
+843 silly gunzTarPerm modified mode [ 'front-end/TimelinePanel.js', 438, 420 ]
+844 silly gunzTarPerm extractEntry front-end/TimelinePanelDescriptor.js
+845 silly gunzTarPerm modified mode [ 'front-end/TimelinePanelDescriptor.js', 438, 420 ]
+846 silly gunzTarPerm extractEntry front-end/TimelinePresentationModel.js
+847 silly gunzTarPerm modified mode [ 'front-end/TimelinePresentationModel.js', 438, 420 ]
+848 silly gunzTarPerm extractEntry front-end/Toolbar.js
+849 silly gunzTarPerm modified mode [ 'front-end/Toolbar.js', 438, 420 ]
+850 silly gunzTarPerm extractEntry front-end/TopDownProfileDataGridTree.js
+851 silly gunzTarPerm modified mode [ 'front-end/TopDownProfileDataGridTree.js', 438, 420 ]
+852 silly gunzTarPerm extractEntry front-end/TracingAgent.js
+853 silly gunzTarPerm modified mode [ 'front-end/TracingAgent.js', 438, 420 ]
+854 silly gunzTarPerm extractEntry front-end/treeoutline.js
+855 silly gunzTarPerm modified mode [ 'front-end/treeoutline.js', 438, 420 ]
+856 silly gunzTarPerm extractEntry front-end/UglifyJS/
+857 silly gunzTarPerm modified mode [ 'front-end/UglifyJS/', 438, 493 ]
+858 silly gunzTarPerm extractEntry front-end/UglifyJS/parse-js.js
+859 silly gunzTarPerm modified mode [ 'front-end/UglifyJS/parse-js.js', 438, 420 ]
+860 silly gunzTarPerm extractEntry front-end/UISourceCode.js
+861 silly gunzTarPerm modified mode [ 'front-end/UISourceCode.js', 438, 420 ]
+862 silly gunzTarPerm extractEntry front-end/UISourceCodeFrame.js
+863 silly gunzTarPerm modified mode [ 'front-end/UISourceCodeFrame.js', 438, 420 ]
+864 silly gunzTarPerm extractEntry front-end/UIString.js
+865 silly gunzTarPerm modified mode [ 'front-end/UIString.js', 438, 420 ]
+866 silly gunzTarPerm extractEntry front-end/UIUtils.js
+867 silly gunzTarPerm modified mode [ 'front-end/UIUtils.js', 438, 420 ]
+868 silly gunzTarPerm extractEntry front-end/UserMetrics.js
+869 silly gunzTarPerm modified mode [ 'front-end/UserMetrics.js', 438, 420 ]
+870 silly gunzTarPerm extractEntry front-end/utilities.js
+871 silly gunzTarPerm modified mode [ 'front-end/utilities.js', 438, 420 ]
+872 silly gunzTarPerm extractEntry front-end/View.js
+873 silly gunzTarPerm modified mode [ 'front-end/View.js', 438, 420 ]
+874 silly gunzTarPerm extractEntry front-end/ViewportControl.js
+875 silly gunzTarPerm modified mode [ 'front-end/ViewportControl.js', 438, 420 ]
+876 silly gunzTarPerm extractEntry front-end/WatchExpressionsSidebarPane.js
+877 silly gunzTarPerm modified mode [ 'front-end/WatchExpressionsSidebarPane.js', 438, 420 ]
+878 silly gunzTarPerm extractEntry front-end/WorkerManager.js
+879 silly gunzTarPerm modified mode [ 'front-end/WorkerManager.js', 438, 420 ]
+880 silly gunzTarPerm extractEntry front-end/WorkersSidebarPane.js
+881 silly gunzTarPerm modified mode [ 'front-end/WorkersSidebarPane.js', 438, 420 ]
+882 silly gunzTarPerm extractEntry front-end/Workspace.js
+883 silly gunzTarPerm modified mode [ 'front-end/Workspace.js', 438, 420 ]
+884 silly gunzTarPerm extractEntry front-end/WorkspaceController.js
+885 silly gunzTarPerm modified mode [ 'front-end/WorkspaceController.js', 438, 420 ]
+886 silly gunzTarPerm extractEntry front-end-node/
+887 silly gunzTarPerm modified mode [ 'front-end-node/', 438, 493 ]
+888 silly gunzTarPerm extractEntry front-end-node/Overrides.js
+889 silly gunzTarPerm modified mode [ 'front-end-node/Overrides.js', 438, 420 ]
+890 silly gunzTarPerm extractEntry index.js
+891 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+892 silly gunzTarPerm extractEntry lib/
+893 silly gunzTarPerm modified mode [ 'lib/', 438, 493 ]
+894 silly gunzTarPerm extractEntry lib/BreakEventHandler.js
+895 silly gunzTarPerm modified mode [ 'lib/BreakEventHandler.js', 438, 420 ]
+896 silly gunzTarPerm extractEntry lib/callback.js
+897 silly gunzTarPerm modified mode [ 'lib/callback.js', 438, 420 ]
+898 silly gunzTarPerm extractEntry lib/CallFramesProvider.js
+899 silly gunzTarPerm modified mode [ 'lib/CallFramesProvider.js', 438, 420 ]
+900 silly gunzTarPerm extractEntry lib/config.js
+901 silly gunzTarPerm modified mode [ 'lib/config.js', 438, 420 ]
+902 silly gunzTarPerm extractEntry lib/convert.js
+903 silly gunzTarPerm modified mode [ 'lib/convert.js', 438, 420 ]
+904 silly gunzTarPerm extractEntry lib/debug-server.js
+905 silly gunzTarPerm modified mode [ 'lib/debug-server.js', 438, 420 ]
+906 silly gunzTarPerm extractEntry lib/debugger.js
+907 silly gunzTarPerm modified mode [ 'lib/debugger.js', 438, 420 ]
+908 silly gunzTarPerm extractEntry lib/DebuggerAgent.js
+909 silly gunzTarPerm modified mode [ 'lib/DebuggerAgent.js', 438, 420 ]
+910 silly gunzTarPerm extractEntry lib/DebuggerClient.js
+911 silly gunzTarPerm modified mode [ 'lib/DebuggerClient.js', 438, 420 ]
+912 silly gunzTarPerm extractEntry lib/FrontendClient.js
+913 silly gunzTarPerm modified mode [ 'lib/FrontendClient.js', 438, 420 ]
+914 silly gunzTarPerm extractEntry lib/FrontendCommandHandler.js
+915 silly gunzTarPerm modified mode [ 'lib/FrontendCommandHandler.js', 438, 420 ]
+916 silly gunzTarPerm extractEntry lib/NetworkAgent.js
+917 silly gunzTarPerm modified mode [ 'lib/NetworkAgent.js', 438, 420 ]
+918 silly gunzTarPerm extractEntry lib/PageAgent.js
+919 silly gunzTarPerm modified mode [ 'lib/PageAgent.js', 438, 420 ]
+920 silly gunzTarPerm extractEntry lib/RuntimeAgent.js
+921 silly gunzTarPerm modified mode [ 'lib/RuntimeAgent.js', 438, 420 ]
+922 silly gunzTarPerm extractEntry lib/ScriptFileStorage.js
+923 silly gunzTarPerm modified mode [ 'lib/ScriptFileStorage.js', 438, 420 ]
+924 silly gunzTarPerm extractEntry lib/ScriptManager.js
+925 silly gunzTarPerm modified mode [ 'lib/ScriptManager.js', 438, 420 ]
+926 silly gunzTarPerm extractEntry lib/session.js
+927 silly gunzTarPerm modified mode [ 'lib/session.js', 438, 420 ]
+928 silly gunzTarPerm extractEntry LICENSE
+929 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+930 silly gunzTarPerm extractEntry package.json
+931 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+932 silly gunzTarPerm extractEntry README.md
+933 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+934 silly lockFile 88a13a51--npm-node-modules-node-inspector tar://C:\Users\JINGA4X\AppData\Roaming\npm\node_modules\node-inspector
+935 silly lockFile 88a13a51--npm-node-modules-node-inspector tar://C:\Users\JINGA4X\AppData\Roaming\npm\node_modules\node-inspector
+936 silly lockFile 788866e0-node-inspector-0-7-3-package-tgz tar://c:\Users\JINGA4X\AppData\Roaming\npm-cache\node-inspector\0.7.3\package.tgz
+937 silly lockFile 788866e0-node-inspector-0-7-3-package-tgz tar://c:\Users\JINGA4X\AppData\Roaming\npm-cache\node-inspector\0.7.3\package.tgz
+938 info preinstall node-inspector@0.7.3
+939 verbose readDependencies using package.json deps
+940 verbose readDependencies using package.json deps
+941 verbose cache add [ 'express@~3.5', null ]
+942 verbose cache add name=undefined spec="express@~3.5" args=["express@~3.5",null]
+943 verbose parsed url { protocol: null,
+943 verbose parsed url   slashes: null,
+943 verbose parsed url   auth: null,
+943 verbose parsed url   host: null,
+943 verbose parsed url   port: null,
+943 verbose parsed url   hostname: null,
+943 verbose parsed url   hash: null,
+943 verbose parsed url   search: null,
+943 verbose parsed url   query: null,
+943 verbose parsed url   pathname: 'express@~3.5',
+943 verbose parsed url   path: 'express@~3.5',
+943 verbose parsed url   href: 'express@~3.5' }
+944 verbose cache add name="express" spec="~3.5" args=["express","~3.5"]
+945 verbose parsed url { protocol: null,
+945 verbose parsed url   slashes: null,
+945 verbose parsed url   auth: null,
+945 verbose parsed url   host: null,
+945 verbose parsed url   port: null,
+945 verbose parsed url   hostname: null,
+945 verbose parsed url   hash: null,
+945 verbose parsed url   search: null,
+945 verbose parsed url   query: null,
+945 verbose parsed url   pathname: '~3.5',
+945 verbose parsed url   path: '~3.5',
+945 verbose parsed url   href: '~3.5' }
+946 verbose addNamed [ 'express', '~3.5' ]
+947 verbose addNamed [ null, '>=3.5.0-0 <3.6.0-0' ]
+948 silly lockFile ded93d9f-express-3-5 express@~3.5
+949 verbose lock express@~3.5 C:\Users\JINGA4X\AppData\Roaming\npm-cache\ded93d9f-express-3-5.lock
+950 verbose cache add [ 'async@~0.4', null ]
+951 verbose cache add name=undefined spec="async@~0.4" args=["async@~0.4",null]
+952 verbose parsed url { protocol: null,
+952 verbose parsed url   slashes: null,
+952 verbose parsed url   auth: null,
+952 verbose parsed url   host: null,
+952 verbose parsed url   port: null,
+952 verbose parsed url   hostname: null,
+952 verbose parsed url   hash: null,
+952 verbose parsed url   search: null,
+952 verbose parsed url   query: null,
+952 verbose parsed url   pathname: 'async@~0.4',
+952 verbose parsed url   path: 'async@~0.4',
+952 verbose parsed url   href: 'async@~0.4' }
+953 verbose cache add name="async" spec="~0.4" args=["async","~0.4"]
+954 verbose parsed url { protocol: null,
+954 verbose parsed url   slashes: null,
+954 verbose parsed url   auth: null,
+954 verbose parsed url   host: null,
+954 verbose parsed url   port: null,
+954 verbose parsed url   hostname: null,
+954 verbose parsed url   hash: null,
+954 verbose parsed url   search: null,
+954 verbose parsed url   query: null,
+954 verbose parsed url   pathname: '~0.4',
+954 verbose parsed url   path: '~0.4',
+954 verbose parsed url   href: '~0.4' }
+955 verbose addNamed [ 'async', '~0.4' ]
+956 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+957 silly lockFile 34d009a8-async-0-4 async@~0.4
+958 verbose lock async@~0.4 C:\Users\JINGA4X\AppData\Roaming\npm-cache\34d009a8-async-0-4.lock
+959 silly addNameRange { name: 'express', range: '>=3.5.0-0 <3.6.0-0', hasData: false }
+960 silly addNameRange { name: 'async', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+961 verbose url raw async
+962 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+963 verbose url resolved https://registry.npmjs.org/async
+964 info trying registry request attempt 1 at 11:10:39
+965 verbose etag "8871Q8WQ6WXXV6AUFER2I7Z5O"
+966 http GET https://registry.npmjs.org/async
+967 verbose cache add [ 'glob@~3.2.1', null ]
+968 verbose cache add name=undefined spec="glob@~3.2.1" args=["glob@~3.2.1",null]
+969 verbose parsed url { protocol: null,
+969 verbose parsed url   slashes: null,
+969 verbose parsed url   auth: null,
+969 verbose parsed url   host: null,
+969 verbose parsed url   port: null,
+969 verbose parsed url   hostname: null,
+969 verbose parsed url   hash: null,
+969 verbose parsed url   search: null,
+969 verbose parsed url   query: null,
+969 verbose parsed url   pathname: 'glob@~3.2.1',
+969 verbose parsed url   path: 'glob@~3.2.1',
+969 verbose parsed url   href: 'glob@~3.2.1' }
+970 verbose cache add name="glob" spec="~3.2.1" args=["glob","~3.2.1"]
+971 verbose parsed url { protocol: null,
+971 verbose parsed url   slashes: null,
+971 verbose parsed url   auth: null,
+971 verbose parsed url   host: null,
+971 verbose parsed url   port: null,
+971 verbose parsed url   hostname: null,
+971 verbose parsed url   hash: null,
+971 verbose parsed url   search: null,
+971 verbose parsed url   query: null,
+971 verbose parsed url   pathname: '~3.2.1',
+971 verbose parsed url   path: '~3.2.1',
+971 verbose parsed url   href: '~3.2.1' }
+972 verbose addNamed [ 'glob', '~3.2.1' ]
+973 verbose addNamed [ null, '>=3.2.1-0 <3.3.0-0' ]
+974 silly lockFile c4e56cfb-glob-3-2-1 glob@~3.2.1
+975 verbose lock glob@~3.2.1 C:\Users\JINGA4X\AppData\Roaming\npm-cache\c4e56cfb-glob-3-2-1.lock
+976 verbose cache add [ 'rc@~0.3.0', null ]
+977 verbose cache add name=undefined spec="rc@~0.3.0" args=["rc@~0.3.0",null]
+978 verbose parsed url { protocol: null,
+978 verbose parsed url   slashes: null,
+978 verbose parsed url   auth: null,
+978 verbose parsed url   host: null,
+978 verbose parsed url   port: null,
+978 verbose parsed url   hostname: null,
+978 verbose parsed url   hash: null,
+978 verbose parsed url   search: null,
+978 verbose parsed url   query: null,
+978 verbose parsed url   pathname: 'rc@~0.3.0',
+978 verbose parsed url   path: 'rc@~0.3.0',
+978 verbose parsed url   href: 'rc@~0.3.0' }
+979 verbose cache add name="rc" spec="~0.3.0" args=["rc","~0.3.0"]
+980 verbose parsed url { protocol: null,
+980 verbose parsed url   slashes: null,
+980 verbose parsed url   auth: null,
+980 verbose parsed url   host: null,
+980 verbose parsed url   port: null,
+980 verbose parsed url   hostname: null,
+980 verbose parsed url   hash: null,
+980 verbose parsed url   search: null,
+980 verbose parsed url   query: null,
+980 verbose parsed url   pathname: '~0.3.0',
+980 verbose parsed url   path: '~0.3.0',
+980 verbose parsed url   href: '~0.3.0' }
+981 verbose addNamed [ 'rc', '~0.3.0' ]
+982 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+983 silly lockFile 1e251ea5-rc-0-3-0 rc@~0.3.0
+984 verbose lock rc@~0.3.0 C:\Users\JINGA4X\AppData\Roaming\npm-cache\1e251ea5-rc-0-3-0.lock
+985 verbose cache add [ 'strong-data-uri@~0.1.0', null ]
+986 verbose cache add name=undefined spec="strong-data-uri@~0.1.0" args=["strong-data-uri@~0.1.0",null]
+987 verbose parsed url { protocol: null,
+987 verbose parsed url   slashes: null,
+987 verbose parsed url   auth: null,
+987 verbose parsed url   host: null,
+987 verbose parsed url   port: null,
+987 verbose parsed url   hostname: null,
+987 verbose parsed url   hash: null,
+987 verbose parsed url   search: null,
+987 verbose parsed url   query: null,
+987 verbose parsed url   pathname: 'strong-data-uri@~0.1.0',
+987 verbose parsed url   path: 'strong-data-uri@~0.1.0',
+987 verbose parsed url   href: 'strong-data-uri@~0.1.0' }
+988 verbose cache add name="strong-data-uri" spec="~0.1.0" args=["strong-data-uri","~0.1.0"]
+989 verbose parsed url { protocol: null,
+989 verbose parsed url   slashes: null,
+989 verbose parsed url   auth: null,
+989 verbose parsed url   host: null,
+989 verbose parsed url   port: null,
+989 verbose parsed url   hostname: null,
+989 verbose parsed url   hash: null,
+989 verbose parsed url   search: null,
+989 verbose parsed url   query: null,
+989 verbose parsed url   pathname: '~0.1.0',
+989 verbose parsed url   path: '~0.1.0',
+989 verbose parsed url   href: '~0.1.0' }
+990 verbose addNamed [ 'strong-data-uri', '~0.1.0' ]
+991 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+992 silly lockFile 6f908b79-strong-data-uri-0-1-0 strong-data-uri@~0.1.0
+993 verbose lock strong-data-uri@~0.1.0 C:\Users\JINGA4X\AppData\Roaming\npm-cache\6f908b79-strong-data-uri-0-1-0.lock
+994 verbose cache add [ 'debug@~0.8', null ]
+995 verbose cache add name=undefined spec="debug@~0.8" args=["debug@~0.8",null]
+996 verbose parsed url { protocol: null,
+996 verbose parsed url   slashes: null,
+996 verbose parsed url   auth: null,
+996 verbose parsed url   host: null,
+996 verbose parsed url   port: null,
+996 verbose parsed url   hostname: null,
+996 verbose parsed url   hash: null,
+996 verbose parsed url   search: null,
+996 verbose parsed url   query: null,
+996 verbose parsed url   pathname: 'debug@~0.8',
+996 verbose parsed url   path: 'debug@~0.8',
+996 verbose parsed url   href: 'debug@~0.8' }
+997 verbose cache add name="debug" spec="~0.8" args=["debug","~0.8"]
+998 verbose parsed url { protocol: null,
+998 verbose parsed url   slashes: null,
+998 verbose parsed url   auth: null,
+998 verbose parsed url   host: null,
+998 verbose parsed url   port: null,
+998 verbose parsed url   hostname: null,
+998 verbose parsed url   hash: null,
+998 verbose parsed url   search: null,
+998 verbose parsed url   query: null,
+998 verbose parsed url   pathname: '~0.8',
+998 verbose parsed url   path: '~0.8',
+998 verbose parsed url   href: '~0.8' }
+999 verbose addNamed [ 'debug', '~0.8' ]
+1000 verbose addNamed [ null, '>=0.8.0-0 <0.9.0-0' ]
+1001 silly lockFile cd9af4b6-debug-0-8 debug@~0.8
+1002 verbose lock debug@~0.8 C:\Users\JINGA4X\AppData\Roaming\npm-cache\cd9af4b6-debug-0-8.lock
+1003 verbose cache add [ 'ws@~0.4.31', null ]
+1004 verbose cache add name=undefined spec="ws@~0.4.31" args=["ws@~0.4.31",null]
+1005 verbose parsed url { protocol: null,
+1005 verbose parsed url   slashes: null,
+1005 verbose parsed url   auth: null,
+1005 verbose parsed url   host: null,
+1005 verbose parsed url   port: null,
+1005 verbose parsed url   hostname: null,
+1005 verbose parsed url   hash: null,
+1005 verbose parsed url   search: null,
+1005 verbose parsed url   query: null,
+1005 verbose parsed url   pathname: 'ws@~0.4.31',
+1005 verbose parsed url   path: 'ws@~0.4.31',
+1005 verbose parsed url   href: 'ws@~0.4.31' }
+1006 verbose cache add name="ws" spec="~0.4.31" args=["ws","~0.4.31"]
+1007 verbose parsed url { protocol: null,
+1007 verbose parsed url   slashes: null,
+1007 verbose parsed url   auth: null,
+1007 verbose parsed url   host: null,
+1007 verbose parsed url   port: null,
+1007 verbose parsed url   hostname: null,
+1007 verbose parsed url   hash: null,
+1007 verbose parsed url   search: null,
+1007 verbose parsed url   query: null,
+1007 verbose parsed url   pathname: '~0.4.31',
+1007 verbose parsed url   path: '~0.4.31',
+1007 verbose parsed url   href: '~0.4.31' }
+1008 verbose addNamed [ 'ws', '~0.4.31' ]
+1009 verbose addNamed [ null, '>=0.4.31-0 <0.5.0-0' ]
+1010 silly lockFile 6f25c2de-ws-0-4-31 ws@~0.4.31
+1011 verbose lock ws@~0.4.31 C:\Users\JINGA4X\AppData\Roaming\npm-cache\6f25c2de-ws-0-4-31.lock
+1012 verbose cache add [ 'opener@~1.3.0', null ]
+1013 verbose cache add name=undefined spec="opener@~1.3.0" args=["opener@~1.3.0",null]
+1014 verbose parsed url { protocol: null,
+1014 verbose parsed url   slashes: null,
+1014 verbose parsed url   auth: null,
+1014 verbose parsed url   host: null,
+1014 verbose parsed url   port: null,
+1014 verbose parsed url   hostname: null,
+1014 verbose parsed url   hash: null,
+1014 verbose parsed url   search: null,
+1014 verbose parsed url   query: null,
+1014 verbose parsed url   pathname: 'opener@~1.3.0',
+1014 verbose parsed url   path: 'opener@~1.3.0',
+1014 verbose parsed url   href: 'opener@~1.3.0' }
+1015 verbose cache add name="opener" spec="~1.3.0" args=["opener","~1.3.0"]
+1016 verbose parsed url { protocol: null,
+1016 verbose parsed url   slashes: null,
+1016 verbose parsed url   auth: null,
+1016 verbose parsed url   host: null,
+1016 verbose parsed url   port: null,
+1016 verbose parsed url   hostname: null,
+1016 verbose parsed url   hash: null,
+1016 verbose parsed url   search: null,
+1016 verbose parsed url   query: null,
+1016 verbose parsed url   pathname: '~1.3.0',
+1016 verbose parsed url   path: '~1.3.0',
+1016 verbose parsed url   href: '~1.3.0' }
+1017 verbose addNamed [ 'opener', '~1.3.0' ]
+1018 verbose addNamed [ null, '>=1.3.0-0 <1.4.0-0' ]
+1019 silly lockFile 531881c0-opener-1-3-0 opener@~1.3.0
+1020 verbose lock opener@~1.3.0 C:\Users\JINGA4X\AppData\Roaming\npm-cache\531881c0-opener-1-3-0.lock
+1021 verbose cache add [ 'yargs@~1.1.2', null ]
+1022 verbose cache add name=undefined spec="yargs@~1.1.2" args=["yargs@~1.1.2",null]
+1023 verbose parsed url { protocol: null,
+1023 verbose parsed url   slashes: null,
+1023 verbose parsed url   auth: null,
+1023 verbose parsed url   host: null,
+1023 verbose parsed url   port: null,
+1023 verbose parsed url   hostname: null,
+1023 verbose parsed url   hash: null,
+1023 verbose parsed url   search: null,
+1023 verbose parsed url   query: null,
+1023 verbose parsed url   pathname: 'yargs@~1.1.2',
+1023 verbose parsed url   path: 'yargs@~1.1.2',
+1023 verbose parsed url   href: 'yargs@~1.1.2' }
+1024 verbose cache add name="yargs" spec="~1.1.2" args=["yargs","~1.1.2"]
+1025 verbose parsed url { protocol: null,
+1025 verbose parsed url   slashes: null,
+1025 verbose parsed url   auth: null,
+1025 verbose parsed url   host: null,
+1025 verbose parsed url   port: null,
+1025 verbose parsed url   hostname: null,
+1025 verbose parsed url   hash: null,
+1025 verbose parsed url   search: null,
+1025 verbose parsed url   query: null,
+1025 verbose parsed url   pathname: '~1.1.2',
+1025 verbose parsed url   path: '~1.1.2',
+1025 verbose parsed url   href: '~1.1.2' }
+1026 verbose addNamed [ 'yargs', '~1.1.2' ]
+1027 verbose addNamed [ null, '>=1.1.2-0 <1.2.0-0' ]
+1028 silly lockFile 1bf5c033-yargs-1-1-2 yargs@~1.1.2
+1029 verbose lock yargs@~1.1.2 C:\Users\JINGA4X\AppData\Roaming\npm-cache\1bf5c033-yargs-1-1-2.lock
+1030 verbose cache add [ 'which@~1.0.5', null ]
+1031 verbose cache add name=undefined spec="which@~1.0.5" args=["which@~1.0.5",null]
+1032 verbose parsed url { protocol: null,
+1032 verbose parsed url   slashes: null,
+1032 verbose parsed url   auth: null,
+1032 verbose parsed url   host: null,
+1032 verbose parsed url   port: null,
+1032 verbose parsed url   hostname: null,
+1032 verbose parsed url   hash: null,
+1032 verbose parsed url   search: null,
+1032 verbose parsed url   query: null,
+1032 verbose parsed url   pathname: 'which@~1.0.5',
+1032 verbose parsed url   path: 'which@~1.0.5',
+1032 verbose parsed url   href: 'which@~1.0.5' }
+1033 verbose cache add name="which" spec="~1.0.5" args=["which","~1.0.5"]
+1034 verbose parsed url { protocol: null,
+1034 verbose parsed url   slashes: null,
+1034 verbose parsed url   auth: null,
+1034 verbose parsed url   host: null,
+1034 verbose parsed url   port: null,
+1034 verbose parsed url   hostname: null,
+1034 verbose parsed url   hash: null,
+1034 verbose parsed url   search: null,
+1034 verbose parsed url   query: null,
+1034 verbose parsed url   pathname: '~1.0.5',
+1034 verbose parsed url   path: '~1.0.5',
+1034 verbose parsed url   href: '~1.0.5' }
+1035 verbose addNamed [ 'which', '~1.0.5' ]
+1036 verbose addNamed [ null, '>=1.0.5-0 <1.1.0-0' ]
+1037 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+1038 verbose lock which@~1.0.5 C:\Users\JINGA4X\AppData\Roaming\npm-cache\d158d65e-which-1-0-5.lock
+1039 verbose url raw express
+1040 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+1041 verbose url resolved https://registry.npmjs.org/express
+1042 info trying registry request attempt 1 at 11:10:39
+1043 verbose etag "QX6MPQW4RAY03MNL8KHDULT5"
+1044 http GET https://registry.npmjs.org/express
+1045 silly addNameRange { name: 'rc', range: '>=0.3.0-0 <0.4.0-0', hasData: false }
+1046 silly addNameRange { name: 'strong-data-uri',
+1046 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+1046 silly addNameRange   hasData: false }
+1047 silly addNameRange { name: 'debug', range: '>=0.8.0-0 <0.9.0-0', hasData: false }
+1048 silly addNameRange { name: 'ws', range: '>=0.4.31-0 <0.5.0-0', hasData: false }
+1049 silly addNameRange { name: 'glob', range: '>=3.2.1-0 <3.3.0-0', hasData: false }
+1050 silly addNameRange { name: 'opener', range: '>=1.3.0-0 <1.4.0-0', hasData: false }
+1051 silly addNameRange { name: 'yargs', range: '>=1.1.2-0 <1.2.0-0', hasData: false }
+1052 silly addNameRange { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: false }
+1053 verbose url raw debug
+1054 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+1055 verbose url resolved https://registry.npmjs.org/debug
+1056 info trying registry request attempt 1 at 11:10:39
+1057 verbose etag "7NK6EFQGJ7GT56O6MYPU5HUNE"
+1058 http GET https://registry.npmjs.org/debug
+1059 verbose url raw rc
+1060 verbose url resolving [ 'https://registry.npmjs.org/', './rc' ]
+1061 verbose url resolved https://registry.npmjs.org/rc
+1062 info trying registry request attempt 1 at 11:10:39
+1063 verbose etag "8QFLF6W37HAKSW2XC4QGY2YDQ"
+1064 http GET https://registry.npmjs.org/rc
+1065 verbose url raw strong-data-uri
+1066 verbose url resolving [ 'https://registry.npmjs.org/', './strong-data-uri' ]
+1067 verbose url resolved https://registry.npmjs.org/strong-data-uri
+1068 info trying registry request attempt 1 at 11:10:39
+1069 verbose etag "5KPIAFQ5O6EIJXYAO4LO35VYC"
+1070 http GET https://registry.npmjs.org/strong-data-uri
+1071 verbose url raw opener
+1072 verbose url resolving [ 'https://registry.npmjs.org/', './opener' ]
+1073 verbose url resolved https://registry.npmjs.org/opener
+1074 info trying registry request attempt 1 at 11:10:39
+1075 verbose etag "D9Y54SOYZSYQRLW6ESHVHGDEV"
+1076 http GET https://registry.npmjs.org/opener
+1077 verbose url raw which
+1078 verbose url resolving [ 'https://registry.npmjs.org/', './which' ]
+1079 verbose url resolved https://registry.npmjs.org/which
+1080 info trying registry request attempt 1 at 11:10:39
+1081 verbose etag "5OYQOVGTVIKO6H6RJI7OIMZM"
+1082 http GET https://registry.npmjs.org/which
+1083 verbose url raw glob
+1084 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+1085 verbose url resolved https://registry.npmjs.org/glob
+1086 info trying registry request attempt 1 at 11:10:39
+1087 verbose etag "BNJFRDZHS69RJ8YE9UTYH7975"
+1088 http GET https://registry.npmjs.org/glob
+1089 verbose url raw yargs
+1090 verbose url resolving [ 'https://registry.npmjs.org/', './yargs' ]
+1091 verbose url resolved https://registry.npmjs.org/yargs
+1092 info trying registry request attempt 1 at 11:10:39
+1093 verbose etag "31SFY8JP82JQ6F8L48C2VVEL7"
+1094 http GET https://registry.npmjs.org/yargs
+1095 verbose url raw ws
+1096 verbose url resolving [ 'https://registry.npmjs.org/', './ws' ]
+1097 verbose url resolved https://registry.npmjs.org/ws
+1098 info trying registry request attempt 1 at 11:10:39
+1099 verbose etag "3VKR0V4P7QIL4POJOSMHC08GS"
+1100 http GET https://registry.npmjs.org/ws
+1101 http 304 https://registry.npmjs.org/debug
+1102 silly registry.get cb [ 304,
+1102 silly registry.get   { date: 'Fri, 25 Apr 2014 09:10:43 GMT',
+1102 silly registry.get     server: 'Apache',
+1102 silly registry.get     via: '1.1 varnish',
+1102 silly registry.get     'last-modified': 'Fri, 25 Apr 2014 09:10:43 GMT',
+1102 silly registry.get     'cache-control': 'max-age=1',
+1102 silly registry.get     etag: '"7NK6EFQGJ7GT56O6MYPU5HUNE"',
+1102 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+1102 silly registry.get     'x-cache': 'HIT',
+1102 silly registry.get     'x-cache-hits': '2',
+1102 silly registry.get     'x-timer': 'S1398417043.696364403,VS0,VE0',
+1102 silly registry.get     vary: 'Accept',
+1102 silly registry.get     'content-length': '0',
+1102 silly registry.get     connection: 'close' } ]
+1103 verbose etag debug from cache
+1104 silly addNameRange number 2 { name: 'debug', range: '>=0.8.0-0 <0.9.0-0', hasData: true }
+1105 silly addNameRange versions [ 'debug',
+1105 silly addNameRange   [ '0.0.1',
+1105 silly addNameRange     '0.1.0',
+1105 silly addNameRange     '0.2.0',
+1105 silly addNameRange     '0.3.0',
+1105 silly addNameRange     '0.4.0',
+1105 silly addNameRange     '0.4.1',
+1105 silly addNameRange     '0.5.0',
+1105 silly addNameRange     '0.6.0',
+1105 silly addNameRange     '0.7.0',
+1105 silly addNameRange     '0.7.1',
+1105 silly addNameRange     '0.7.2',
+1105 silly addNameRange     '0.7.3',
+1105 silly addNameRange     '0.7.4',
+1105 silly addNameRange     '0.8.0' ] ]
+1106 verbose addNamed [ 'debug', '0.8.0' ]
+1107 verbose addNamed [ '0.8.0', '0.8.0' ]
+1108 silly lockFile 3647f48c-debug-0-8-0 debug@0.8.0
+1109 verbose lock debug@0.8.0 C:\Users\JINGA4X\AppData\Roaming\npm-cache\3647f48c-debug-0-8-0.lock
+1110 silly lockFile 3647f48c-debug-0-8-0 debug@0.8.0
+1111 silly lockFile 3647f48c-debug-0-8-0 debug@0.8.0
+1112 silly lockFile cd9af4b6-debug-0-8 debug@~0.8
+1113 silly lockFile cd9af4b6-debug-0-8 debug@~0.8
+1114 http 304 https://registry.npmjs.org/async
+1115 silly registry.get cb [ 304,
+1115 silly registry.get   { date: 'Fri, 25 Apr 2014 09:10:43 GMT',
+1115 silly registry.get     server: 'Apache',
+1115 silly registry.get     via: '1.1 varnish',
+1115 silly registry.get     'last-modified': 'Fri, 25 Apr 2014 09:10:43 GMT',
+1115 silly registry.get     'cache-control': 'max-age=1',
+1115 silly registry.get     etag: '"8871Q8WQ6WXXV6AUFER2I7Z5O"',
+1115 silly registry.get     'x-served-by': 'cache-fra1231-FRA',
+1115 silly registry.get     'x-cache': 'HIT',
+1115 silly registry.get     'x-cache-hits': '1',
+1115 silly registry.get     'x-timer': 'S1398417043.617048264,VS0,VE95',
+1115 silly registry.get     vary: 'Accept',
+1115 silly registry.get     'content-length': '0',
+1115 silly registry.get     connection: 'close' } ]
+1116 verbose etag async from cache
+1117 silly addNameRange number 2 { name: 'async', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+1118 silly addNameRange versions [ 'async',
+1118 silly addNameRange   [ '0.1.0',
+1118 silly addNameRange     '0.1.1',
+1118 silly addNameRange     '0.1.2',
+1118 silly addNameRange     '0.1.3',
+1118 silly addNameRange     '0.1.4',
+1118 silly addNameRange     '0.1.5',
+1118 silly addNameRange     '0.1.6',
+1118 silly addNameRange     '0.1.7',
+1118 silly addNameRange     '0.1.8',
+1118 silly addNameRange     '0.1.9',
+1118 silly addNameRange     '0.1.10',
+1118 silly addNameRange     '0.1.11',
+1118 silly addNameRange     '0.1.12',
+1118 silly addNameRange     '0.1.13',
+1118 silly addNameRange     '0.1.14',
+1118 silly addNameRange     '0.1.15',
+1118 silly addNameRange     '0.1.16',
+1118 silly addNameRange     '0.1.17',
+1118 silly addNameRange     '0.1.18',
+1118 silly addNameRange     '0.1.19',
+1118 silly addNameRange     '0.1.20',
+1118 silly addNameRange     '0.1.21',
+1118 silly addNameRange     '0.1.22',
+1118 silly addNameRange     '0.2.0',
+1118 silly addNameRange     '0.2.1',
+1118 silly addNameRange     '0.2.2',
+1118 silly addNameRange     '0.2.3',
+1118 silly addNameRange     '0.2.4',
+1118 silly addNameRange     '0.2.5',
+1118 silly addNameRange     '0.2.6',
+1118 silly addNameRange     '0.2.7',
+1118 silly addNameRange     '0.2.8',
+1118 silly addNameRange     '0.2.9',
+1118 silly addNameRange     '0.2.10',
+1118 silly addNameRange     '0.3.0',
+1118 silly addNameRange     '0.4.0',
+1118 silly addNameRange     '0.4.1',
+1118 silly addNameRange     '0.5.0',
+1118 silly addNameRange     '0.6.0',
+1118 silly addNameRange     '0.6.1',
+1118 silly addNameRange     '0.6.2',
+1118 silly addNameRange     '0.7.0' ] ]
+1119 verbose addNamed [ 'async', '0.4.1' ]
+1120 verbose addNamed [ '0.4.1', '0.4.1' ]
+1121 silly lockFile cd0ca44f-async-0-4-1 async@0.4.1
+1122 verbose lock async@0.4.1 C:\Users\JINGA4X\AppData\Roaming\npm-cache\cd0ca44f-async-0-4-1.lock
+1123 silly lockFile cd0ca44f-async-0-4-1 async@0.4.1
+1124 silly lockFile cd0ca44f-async-0-4-1 async@0.4.1
+1125 silly lockFile 34d009a8-async-0-4 async@~0.4
+1126 silly lockFile 34d009a8-async-0-4 async@~0.4
+1127 http 304 https://registry.npmjs.org/express
+1128 silly registry.get cb [ 304,
+1128 silly registry.get   { date: 'Fri, 25 Apr 2014 09:10:43 GMT',
+1128 silly registry.get     server: 'Apache',
+1128 silly registry.get     via: '1.1 varnish',
+1128 silly registry.get     'last-modified': 'Fri, 25 Apr 2014 09:10:43 GMT',
+1128 silly registry.get     'cache-control': 'max-age=1',
+1128 silly registry.get     etag: '"QX6MPQW4RAY03MNL8KHDULT5"',
+1128 silly registry.get     'x-served-by': 'cache-fra1221-FRA',
+1128 silly registry.get     'x-cache': 'MISS',
+1128 silly registry.get     'x-cache-hits': '0',
+1128 silly registry.get     'x-timer': 'S1398417043.657337904,VS0,VE191',
+1128 silly registry.get     vary: 'Accept',
+1128 silly registry.get     'content-length': '0',
+1128 silly registry.get     connection: 'close' } ]
+1129 verbose etag express from cache
+1130 silly addNameRange number 2 { name: 'express', range: '>=3.5.0-0 <3.6.0-0', hasData: true }
+1131 silly addNameRange versions [ 'express',
+1131 silly addNameRange   [ '0.14.0',
+1131 silly addNameRange     '0.14.1',
+1131 silly addNameRange     '1.0.0',
+1131 silly addNameRange     '1.0.1',
+1131 silly addNameRange     '1.0.2',
+1131 silly addNameRange     '1.0.3',
+1131 silly addNameRange     '1.0.4',
+1131 silly addNameRange     '1.0.5',
+1131 silly addNameRange     '1.0.6',
+1131 silly addNameRange     '1.0.7',
+1131 silly addNameRange     '1.0.8',
+1131 silly addNameRange     '2.0.0',
+1131 silly addNameRange     '2.1.0',
+1131 silly addNameRange     '2.1.1',
+1131 silly addNameRange     '2.2.0',
+1131 silly addNameRange     '2.2.1',
+1131 silly addNameRange     '2.2.2',
+1131 silly addNameRange     '2.3.0',
+1131 silly addNameRange     '2.3.1',
+1131 silly addNameRange     '2.3.2',
+1131 silly addNameRange     '2.3.3',
+1131 silly addNameRange     '2.3.4',
+1131 silly addNameRange     '2.3.5',
+1131 silly addNameRange     '2.3.6',
+1131 silly addNameRange     '2.3.7',
+1131 silly addNameRange     '2.3.8',
+1131 silly addNameRange     '2.3.9',
+1131 silly addNameRange     '2.3.10',
+1131 silly addNameRange     '2.3.11',
+1131 silly addNameRange     '2.3.12',
+1131 silly addNameRange     '2.4.0',
+1131 silly addNameRange     '2.4.1',
+1131 silly addNameRange     '2.4.2',
+1131 silly addNameRange     '2.4.3',
+1131 silly addNameRange     '2.4.4',
+1131 silly addNameRange     '2.4.5',
+1131 silly addNameRange     '2.4.6',
+1131 silly addNameRange     '2.4.7',
+1131 silly addNameRange     '2.5.0',
+1131 silly addNameRange     '2.5.1',
+1131 silly addNameRange     '2.5.2',
+1131 silly addNameRange     '2.5.3',
+1131 silly addNameRange     '2.5.4',
+1131 silly addNameRange     '2.5.5',
+1131 silly addNameRange     '2.5.6',
+1131 silly addNameRange     '2.5.7',
+1131 silly addNameRange     '2.5.8',
+1131 silly addNameRange     '2.5.9',
+1131 silly addNameRange     '2.5.10',
+1131 silly addNameRange     '2.5.11',
+1131 silly addNameRange     '3.0.0',
+1131 silly addNameRange     '3.0.1',
+1131 silly addNameRange     '3.0.2',
+1131 silly addNameRange     '3.0.3',
+1131 silly addNameRange     '3.0.4',
+1131 silly addNameRange     '3.0.5',
+1131 silly addNameRange     '3.0.6',
+1131 silly addNameRange     '3.1.0',
+1131 silly addNameRange     '3.1.1',
+1131 silly addNameRange     '3.1.2',
+1131 silly addNameRange     '3.2.0',
+1131 silly addNameRange     '3.2.1',
+1131 silly addNameRange     '3.2.2',
+1131 silly addNameRange     '3.2.3',
+1131 silly addNameRange     '3.2.4',
+1131 silly addNameRange     '3.2.5',
+1131 silly addNameRange     '3.2.6',
+1131 silly addNameRange     '3.3.0',
+1131 silly addNameRange     '3.3.1',
+1131 silly addNameRange     '3.3.2',
+1131 silly addNameRange     '3.3.3',
+1131 silly addNameRange     '3.3.4',
+1131 silly addNameRange     '3.3.5',
+1131 silly addNameRange     '3.3.6',
+1131 silly addNameRange     '1.0.0-beta',
+1131 silly addNameRange     '1.0.0-beta2',
+1131 silly addNameRange     '1.0.0-rc',
+1131 silly addNameRange     '1.0.0-rc2',
+1131 silly addNameRange     '1.0.0-rc3',
+1131 silly addNameRange     '1.0.0-rc4',
+1131 silly addNameRange     '2.0.0-beta',
+1131 silly addNameRange     '2.0.0-beta2',
+1131 silly addNameRange     '2.0.0-beta3',
+1131 silly addNameRange     '2.0.0-rc',
+1131 silly addNameRange     '2.0.0-rc2',
+1131 silly addNameRange     '2.0.0-rc3',
+1131 silly addNameRange     '3.0.0-alpha1',
+1131 silly addNameRange     '3.0.0-alpha2',
+1131 silly addNameRange     '3.0.0-alpha3',
+1131 silly addNameRange     '3.0.0-alpha4',
+1131 silly addNameRange     '3.0.0-alpha5',
+1131 silly addNameRange     '3.0.0-beta1',
+1131 silly addNameRange     '3.0.0-beta2',
+1131 silly addNameRange     '3.0.0-beta3',
+1131 silly addNameRange     '3.0.0-beta4',
+1131 silly addNameRange     '3.0.0-beta6',
+1131 silly addNameRange     '3.0.0-beta7',
+1131 silly addNameRange     '3.0.0-rc1',
+1131 silly addNameRange     '3.0.0-rc2',
+1131 silly addNameRange     '3.0.0-rc3',
+1131 silly addNameRange     '3.0.0-rc4',
+1131 silly addNameRange     '3.0.0-rc5',
+1131 silly addNameRange     '3.3.7',
+1131 silly addNameRange     '3.3.8',
+1131 silly addNameRange     '3.4.0',
+1131 silly addNameRange     '3.4.1',
+1131 silly addNameRange     '3.4.2',
+1131 silly addNameRange     '3.4.3',
+1131 silly addNameRange     '3.4.4',
+1131 silly addNameRange     '3.4.5',
+1131 silly addNameRange     '3.4.6',
+1131 silly addNameRange     '3.4.7',
+1131 silly addNameRange     '3.4.8',
+1131 silly addNameRange     '4.0.0-rc1',
+1131 silly addNameRange     '4.0.0-rc2',
+1131 silly addNameRange     '3.5.0',
+1131 silly addNameRange     '4.0.0-rc3',
+1131 silly addNameRange     '4.0.0-rc4',
+1131 silly addNameRange     '3.5.1',
+1131 silly addNameRange     '4.0.0',
+1131 silly addNameRange     '3.5.2',
+1131 silly addNameRange     '4.1.0' ] ]
+1132 verbose addNamed [ 'express', '3.5.2' ]
+1133 verbose addNamed [ '3.5.2', '3.5.2' ]
+1134 silly lockFile 2542aebf-express-3-5-2 express@3.5.2
+1135 verbose lock express@3.5.2 C:\Users\JINGA4X\AppData\Roaming\npm-cache\2542aebf-express-3-5-2.lock
+1136 http 304 https://registry.npmjs.org/which
+1137 silly registry.get cb [ 304,
+1137 silly registry.get   { date: 'Fri, 25 Apr 2014 09:10:43 GMT',
+1137 silly registry.get     server: 'Apache',
+1137 silly registry.get     via: '1.1 varnish',
+1137 silly registry.get     'last-modified': 'Fri, 25 Apr 2014 09:10:43 GMT',
+1137 silly registry.get     'cache-control': 'max-age=1',
+1137 silly registry.get     etag: '"5OYQOVGTVIKO6H6RJI7OIMZM"',
+1137 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+1137 silly registry.get     'x-cache': 'HIT',
+1137 silly registry.get     'x-cache-hits': '2',
+1137 silly registry.get     'x-timer': 'S1398417043.856430531,VS0,VE0',
+1137 silly registry.get     vary: 'Accept',
+1137 silly registry.get     'content-length': '0',
+1137 silly registry.get     connection: 'close' } ]
+1138 verbose etag which from cache
+1139 silly lockFile 57fef7b7-js-org-express-express-3-5-2-tgz https://registry.npmjs.org/express/-/express-3.5.2.tgz
+1140 verbose lock https://registry.npmjs.org/express/-/express-3.5.2.tgz C:\Users\JINGA4X\AppData\Roaming\npm-cache\57fef7b7-js-org-express-express-3-5-2-tgz.lock
+1141 silly addNameRange number 2 { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: true }
+1142 silly addNameRange versions [ 'which', [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.5' ] ]
+1143 verbose addNamed [ 'which', '1.0.5' ]
+1144 verbose addNamed [ '1.0.5', '1.0.5' ]
+1145 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+1146 verbose lock which@1.0.5 C:\Users\JINGA4X\AppData\Roaming\npm-cache\4aed4494-which-1-0-5.lock
+1147 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-3.5.2.tgz',
+1147 verbose addRemoteTarball   'aab0d2b31ef21259eac24dc45c43378fcf144b6d' ]
+1148 info retry fetch attempt 1 at 11:10:43
+1149 verbose fetch to= c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\1398417043912-0.3438508652616292\tmp.tgz
+1150 http GET https://registry.npmjs.org/express/-/express-3.5.2.tgz
+1151 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+1152 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+1153 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+1154 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+1155 http 304 https://registry.npmjs.org/opener
+1156 silly registry.get cb [ 304,
+1156 silly registry.get   { date: 'Fri, 25 Apr 2014 09:10:43 GMT',
+1156 silly registry.get     server: 'Apache',
+1156 silly registry.get     via: '1.1 varnish',
+1156 silly registry.get     'last-modified': 'Fri, 25 Apr 2014 09:10:43 GMT',
+1156 silly registry.get     'cache-control': 'max-age=1',
+1156 silly registry.get     etag: '"D9Y54SOYZSYQRLW6ESHVHGDEV"',
+1156 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+1156 silly registry.get     'x-cache': 'HIT',
+1156 silly registry.get     'x-cache-hits': '1',
+1156 silly registry.get     'x-timer': 'S1398417043.816549301,VS0,VE106',
+1156 silly registry.get     vary: 'Accept',
+1156 silly registry.get     'content-length': '0',
+1156 silly registry.get     connection: 'close' } ]
+1157 verbose etag opener from cache
+1158 silly addNameRange number 2 { name: 'opener', range: '>=1.3.0-0 <1.4.0-0', hasData: true }
+1159 silly addNameRange versions [ 'opener', [ '1.0.0', '1.0.1', '1.1.0', '1.2.0', '1.3.0' ] ]
+1160 verbose addNamed [ 'opener', '1.3.0' ]
+1161 verbose addNamed [ '1.3.0', '1.3.0' ]
+1162 silly lockFile 58123698-opener-1-3-0 opener@1.3.0
+1163 verbose lock opener@1.3.0 C:\Users\JINGA4X\AppData\Roaming\npm-cache\58123698-opener-1-3-0.lock
+1164 silly lockFile 58123698-opener-1-3-0 opener@1.3.0
+1165 silly lockFile 58123698-opener-1-3-0 opener@1.3.0
+1166 silly lockFile 531881c0-opener-1-3-0 opener@~1.3.0
+1167 silly lockFile 531881c0-opener-1-3-0 opener@~1.3.0
+1168 http 304 https://registry.npmjs.org/strong-data-uri
+1169 silly registry.get cb [ 304,
+1169 silly registry.get   { date: 'Fri, 25 Apr 2014 09:10:43 GMT',
+1169 silly registry.get     server: 'Apache',
+1169 silly registry.get     via: '1.1 varnish',
+1169 silly registry.get     'last-modified': 'Fri, 25 Apr 2014 09:10:43 GMT',
+1169 silly registry.get     'cache-control': 'max-age=1',
+1169 silly registry.get     etag: '"5KPIAFQ5O6EIJXYAO4LO35VYC"',
+1169 silly registry.get     'x-served-by': 'cache-fra1229-FRA',
+1169 silly registry.get     'x-cache': 'HIT',
+1169 silly registry.get     'x-cache-hits': '1',
+1169 silly registry.get     'x-timer': 'S1398417043.778169155,VS0,VE191',
+1169 silly registry.get     vary: 'Accept',
+1169 silly registry.get     'content-length': '0',
+1169 silly registry.get     connection: 'close' } ]
+1170 verbose etag strong-data-uri from cache
+1171 silly addNameRange number 2 { name: 'strong-data-uri',
+1171 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+1171 silly addNameRange   hasData: true }
+1172 silly addNameRange versions [ 'strong-data-uri', [ '0.1.0', '0.1.1' ] ]
+1173 verbose addNamed [ 'strong-data-uri', '0.1.1' ]
+1174 verbose addNamed [ '0.1.1', '0.1.1' ]
+1175 silly lockFile 25cad552-strong-data-uri-0-1-1 strong-data-uri@0.1.1
+1176 verbose lock strong-data-uri@0.1.1 C:\Users\JINGA4X\AppData\Roaming\npm-cache\25cad552-strong-data-uri-0-1-1.lock
+1177 http 304 https://registry.npmjs.org/ws
+1178 silly registry.get cb [ 304,
+1178 silly registry.get   { date: 'Fri, 25 Apr 2014 09:10:43 GMT',
+1178 silly registry.get     server: 'Apache',
+1178 silly registry.get     via: '1.1 varnish',
+1178 silly registry.get     'last-modified': 'Fri, 25 Apr 2014 09:10:44 GMT',
+1178 silly registry.get     'cache-control': 'max-age=1',
+1178 silly registry.get     etag: '"3VKR0V4P7QIL4POJOSMHC08GS"',
+1178 silly registry.get     'x-served-by': 'cache-fra1227-FRA',
+1178 silly registry.get     'x-cache': 'MISS',
+1178 silly registry.get     'x-cache-hits': '0',
+1178 silly registry.get     'x-timer': 'S1398417043.958005190,VS0,VE92',
+1178 silly registry.get     vary: 'Accept',
+1178 silly registry.get     'content-length': '0',
+1178 silly registry.get     connection: 'close' } ]
+1179 verbose etag ws from cache
+1180 silly addNameRange number 2 { name: 'ws', range: '>=0.4.31-0 <0.5.0-0', hasData: true }
+1181 silly addNameRange versions [ 'ws',
+1181 silly addNameRange   [ '0.2.6',
+1181 silly addNameRange     '0.2.8',
+1181 silly addNameRange     '0.2.9',
+1181 silly addNameRange     '0.3.0',
+1181 silly addNameRange     '0.3.1',
+1181 silly addNameRange     '0.3.2',
+1181 silly addNameRange     '0.3.3',
+1181 silly addNameRange     '0.3.4',
+1181 silly addNameRange     '0.3.4-2',
+1181 silly addNameRange     '0.3.5',
+1181 silly addNameRange     '0.3.5-2',
+1181 silly addNameRange     '0.3.5-3',
+1181 silly addNameRange     '0.3.5-4',
+1181 silly addNameRange     '0.3.6',
+1181 silly addNameRange     '0.3.7',
+1181 silly addNameRange     '0.3.8',
+1181 silly addNameRange     '0.3.9',
+1181 silly addNameRange     '0.4.0',
+1181 silly addNameRange     '0.4.1',
+1181 silly addNameRange     '0.4.2',
+1181 silly addNameRange     '0.4.3',
+1181 silly addNameRange     '0.4.5',
+1181 silly addNameRange     '0.4.6',
+1181 silly addNameRange     '0.4.7',
+1181 silly addNameRange     '0.4.8',
+1181 silly addNameRange     '0.4.9',
+1181 silly addNameRange     '0.4.10',
+1181 silly addNameRange     '0.4.11',
+1181 silly addNameRange     '0.4.12',
+1181 silly addNameRange     '0.4.13',
+1181 silly addNameRange     '0.4.14',
+1181 silly addNameRange     '0.4.15',
+1181 silly addNameRange     '0.4.16',
+1181 silly addNameRange     '0.4.17',
+1181 silly addNameRange     '0.4.18',
+1181 silly addNameRange     '0.4.19',
+1181 silly addNameRange     '0.4.20',
+1181 silly addNameRange     '0.4.21',
+1181 silly addNameRange     '0.4.22',
+1181 silly addNameRange     '0.4.23',
+1181 silly addNameRange     '0.4.24',
+1181 silly addNameRange     '0.4.25',
+1181 silly addNameRange     '0.4.27',
+1181 silly addNameRange     '0.4.28',
+1181 silly addNameRange     '0.4.29',
+1181 silly addNameRange     '0.4.30',
+1181 silly addNameRange     '0.4.31' ] ]
+1182 verbose addNamed [ 'ws', '0.4.31' ]
+1183 verbose addNamed [ '0.4.31', '0.4.31' ]
+1184 silly lockFile 53e67403-ws-0-4-31 ws@0.4.31
+1185 verbose lock ws@0.4.31 C:\Users\JINGA4X\AppData\Roaming\npm-cache\53e67403-ws-0-4-31.lock
+1186 http 304 https://registry.npmjs.org/yargs
+1187 silly registry.get cb [ 304,
+1187 silly registry.get   { date: 'Fri, 25 Apr 2014 09:10:43 GMT',
+1187 silly registry.get     server: 'Apache',
+1187 silly registry.get     via: '1.1 varnish',
+1187 silly registry.get     'last-modified': 'Fri, 25 Apr 2014 09:10:44 GMT',
+1187 silly registry.get     'cache-control': 'max-age=1',
+1187 silly registry.get     etag: '"31SFY8JP82JQ6F8L48C2VVEL7"',
+1187 silly registry.get     'x-served-by': 'cache-fra1225-FRA',
+1187 silly registry.get     'x-cache': 'HIT',
+1187 silly registry.get     'x-cache-hits': '1',
+1187 silly registry.get     'x-timer': 'S1398417043.917592525,VS0,VE184',
+1187 silly registry.get     vary: 'Accept',
+1187 silly registry.get     'content-length': '0',
+1187 silly registry.get     connection: 'close' } ]
+1188 verbose etag yargs from cache
+1189 silly addNameRange number 2 { name: 'yargs', range: '>=1.1.2-0 <1.2.0-0', hasData: true }
+1190 silly addNameRange versions [ 'yargs',
+1190 silly addNameRange   [ '1.0.0',
+1190 silly addNameRange     '1.0.1',
+1190 silly addNameRange     '1.0.3',
+1190 silly addNameRange     '1.0.4',
+1190 silly addNameRange     '1.0.5',
+1190 silly addNameRange     '1.0.6',
+1190 silly addNameRange     '1.0.7',
+1190 silly addNameRange     '1.0.8',
+1190 silly addNameRange     '1.0.9',
+1190 silly addNameRange     '1.0.10',
+1190 silly addNameRange     '1.0.11',
+1190 silly addNameRange     '1.0.12',
+1190 silly addNameRange     '1.0.13',
+1190 silly addNameRange     '1.0.15',
+1190 silly addNameRange     '1.1.0',
+1190 silly addNameRange     '1.1.1',
+1190 silly addNameRange     '1.1.2',
+1190 silly addNameRange     '1.1.3',
+1190 silly addNameRange     '1.2.0',
+1190 silly addNameRange     '1.2.1' ] ]
+1191 verbose addNamed [ 'yargs', '1.1.3' ]
+1192 verbose addNamed [ '1.1.3', '1.1.3' ]
+1193 silly lockFile cc47629b-yargs-1-1-3 yargs@1.1.3
+1194 verbose lock yargs@1.1.3 C:\Users\JINGA4X\AppData\Roaming\npm-cache\cc47629b-yargs-1-1-3.lock
+1195 silly lockFile 25cad552-strong-data-uri-0-1-1 strong-data-uri@0.1.1
+1196 silly lockFile 25cad552-strong-data-uri-0-1-1 strong-data-uri@0.1.1
+1197 silly lockFile 6f908b79-strong-data-uri-0-1-0 strong-data-uri@~0.1.0
+1198 silly lockFile 6f908b79-strong-data-uri-0-1-0 strong-data-uri@~0.1.0
+1199 silly lockFile 53e67403-ws-0-4-31 ws@0.4.31
+1200 silly lockFile 53e67403-ws-0-4-31 ws@0.4.31
+1201 silly lockFile 6f25c2de-ws-0-4-31 ws@~0.4.31
+1202 silly lockFile 6f25c2de-ws-0-4-31 ws@~0.4.31
+1203 silly lockFile cc47629b-yargs-1-1-3 yargs@1.1.3
+1204 silly lockFile cc47629b-yargs-1-1-3 yargs@1.1.3
+1205 silly lockFile 1bf5c033-yargs-1-1-2 yargs@~1.1.2
+1206 silly lockFile 1bf5c033-yargs-1-1-2 yargs@~1.1.2
+1207 http 200 https://registry.npmjs.org/rc
+1208 silly registry.get cb [ 200,
+1208 silly registry.get   { date: 'Fri, 25 Apr 2014 09:10:43 GMT',
+1208 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+1208 silly registry.get     etag: '"1JK3LDB51XGPS9GJ16AI288DR"',
+1208 silly registry.get     'content-type': 'application/json',
+1208 silly registry.get     via: '1.1 varnish',
+1208 silly registry.get     'cache-control': 'max-age=1',
+1208 silly registry.get     'content-length': '20208',
+1208 silly registry.get     'accept-ranges': 'bytes',
+1208 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-fra1229-FRA',
+1208 silly registry.get     'x-cache': 'HIT, MISS',
+1208 silly registry.get     'x-cache-hits': '1, 0',
+1208 silly registry.get     'x-timer': 'S1398416690.266696453,VS0,VS46,VE132,VE353663',
+1208 silly registry.get     vary: 'Accept',
+1208 silly registry.get     connection: 'close' } ]
+1209 silly addNameRange number 2 { name: 'rc', range: '>=0.3.0-0 <0.4.0-0', hasData: true }
+1210 silly addNameRange versions [ 'rc',
+1210 silly addNameRange   [ '0.0.1',
+1210 silly addNameRange     '0.0.2',
+1210 silly addNameRange     '0.0.3',
+1210 silly addNameRange     '0.0.4',
+1210 silly addNameRange     '0.0.5',
+1210 silly addNameRange     '0.0.6',
+1210 silly addNameRange     '0.0.7',
+1210 silly addNameRange     '0.0.8',
+1210 silly addNameRange     '0.1.0',
+1210 silly addNameRange     '0.1.1',
+1210 silly addNameRange     '0.1.2',
+1210 silly addNameRange     '0.1.3',
+1210 silly addNameRange     '0.2.0',
+1210 silly addNameRange     '0.3.0',
+1210 silly addNameRange     '0.3.1',
+1210 silly addNameRange     '0.3.2',
+1210 silly addNameRange     '0.3.3',
+1210 silly addNameRange     '0.3.4',
+1210 silly addNameRange     '0.3.5' ] ]
+1211 verbose addNamed [ 'rc', '0.3.5' ]
+1212 verbose addNamed [ '0.3.5', '0.3.5' ]
+1213 silly lockFile 0e486d9c-rc-0-3-5 rc@0.3.5
+1214 verbose lock rc@0.3.5 C:\Users\JINGA4X\AppData\Roaming\npm-cache\0e486d9c-rc-0-3-5.lock
+1215 silly lockFile 3c43b82a-gistry-npmjs-org-rc-rc-0-3-5-tgz https://registry.npmjs.org/rc/-/rc-0.3.5.tgz
+1216 verbose lock https://registry.npmjs.org/rc/-/rc-0.3.5.tgz C:\Users\JINGA4X\AppData\Roaming\npm-cache\3c43b82a-gistry-npmjs-org-rc-rc-0-3-5-tgz.lock
+1217 verbose addRemoteTarball [ 'https://registry.npmjs.org/rc/-/rc-0.3.5.tgz',
+1217 verbose addRemoteTarball   'fce2220593be57aa1296685a7e37ed003dfcc728' ]
+1218 info retry fetch attempt 1 at 11:10:44
+1219 verbose fetch to= c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\1398417044390-0.931851546280086\tmp.tgz
+1220 http GET https://registry.npmjs.org/rc/-/rc-0.3.5.tgz
+1221 http 200 https://registry.npmjs.org/glob
+1222 silly registry.get cb [ 200,
+1222 silly registry.get   { date: 'Fri, 25 Apr 2014 09:10:43 GMT',
+1222 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+1222 silly registry.get     etag: '"3AYM52TXD6H9J4HNEQ1H5KGKB"',
+1222 silly registry.get     'content-type': 'application/json',
+1222 silly registry.get     via: '1.1 varnish',
+1222 silly registry.get     'cache-control': 'max-age=1',
+1222 silly registry.get     'content-length': '43322',
+1222 silly registry.get     'accept-ranges': 'bytes',
+1222 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-fra1229-FRA',
+1222 silly registry.get     'x-cache': 'HIT, MISS',
+1222 silly registry.get     'x-cache-hits': '6, 0',
+1222 silly registry.get     'x-timer': 'S1398387071.640563965,VS0,VS47,VE47,VE29972238',
+1222 silly registry.get     vary: 'Accept',
+1222 silly registry.get     connection: 'close' } ]
+1223 silly addNameRange number 2 { name: 'glob', range: '>=3.2.1-0 <3.3.0-0', hasData: true }
+1224 silly addNameRange versions [ 'glob',
+1224 silly addNameRange   [ '1.1.0',
+1224 silly addNameRange     '2.0.9',
+1224 silly addNameRange     '2.0.8',
+1224 silly addNameRange     '2.0.7',
+1224 silly addNameRange     '2.1.0',
+1224 silly addNameRange     '3.0.0',
+1224 silly addNameRange     '3.0.1',
+1224 silly addNameRange     '3.1.0',
+1224 silly addNameRange     '3.1.1',
+1224 silly addNameRange     '3.1.2',
+1224 silly addNameRange     '3.1.3',
+1224 silly addNameRange     '3.1.4',
+1224 silly addNameRange     '3.1.5',
+1224 silly addNameRange     '3.1.6',
+1224 silly addNameRange     '3.1.7',
+1224 silly addNameRange     '3.1.9',
+1224 silly addNameRange     '3.1.10',
+1224 silly addNameRange     '3.1.11',
+1224 silly addNameRange     '3.1.12',
+1224 silly addNameRange     '3.1.13',
+1224 silly addNameRange     '3.1.14',
+1224 silly addNameRange     '3.1.15',
+1224 silly addNameRange     '3.1.16',
+1224 silly addNameRange     '3.1.17',
+1224 silly addNameRange     '3.1.18',
+1224 silly addNameRange     '3.1.19',
+1224 silly addNameRange     '3.1.20',
+1224 silly addNameRange     '3.1.21',
+1224 silly addNameRange     '3.2.0',
+1224 silly addNameRange     '3.2.1',
+1224 silly addNameRange     '3.2.3',
+1224 silly addNameRange     '3.2.4',
+1224 silly addNameRange     '3.2.5',
+1224 silly addNameRange     '3.2.6',
+1224 silly addNameRange     '3.2.7',
+1224 silly addNameRange     '3.2.8',
+1224 silly addNameRange     '3.2.9' ] ]
+1225 verbose addNamed [ 'glob', '3.2.9' ]
+1226 verbose addNamed [ '3.2.9', '3.2.9' ]
+1227 silly lockFile 311bb488-glob-3-2-9 glob@3.2.9
+1228 verbose lock glob@3.2.9 C:\Users\JINGA4X\AppData\Roaming\npm-cache\311bb488-glob-3-2-9.lock
+1229 silly lockFile 311bb488-glob-3-2-9 glob@3.2.9
+1230 silly lockFile 311bb488-glob-3-2-9 glob@3.2.9
+1231 silly lockFile c4e56cfb-glob-3-2-1 glob@~3.2.1
+1232 silly lockFile c4e56cfb-glob-3-2-1 glob@~3.2.1
+1233 http 200 https://registry.npmjs.org/express/-/express-3.5.2.tgz
+1234 http 200 https://registry.npmjs.org/rc/-/rc-0.3.5.tgz
+1235 verbose chmod c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\rc-0.3.51398417050379-0.2820778298191726\tmp.tgz 644
+1236 verbose tar unpack c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\rc-0.3.51398417050379-0.2820778298191726\tmp.tgz
+1237 silly lockFile fbe56d27-50379-0-2820778298191726-package tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\rc-0.3.51398417050379-0.2820778298191726\package
+1238 verbose lock tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\rc-0.3.51398417050379-0.2820778298191726\package C:\Users\JINGA4X\AppData\Roaming\npm-cache\fbe56d27-50379-0-2820778298191726-package.lock
+1239 silly lockFile 1bbeab34-50379-0-2820778298191726-tmp-tgz tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\rc-0.3.51398417050379-0.2820778298191726\tmp.tgz
+1240 verbose lock tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\rc-0.3.51398417050379-0.2820778298191726\tmp.tgz C:\Users\JINGA4X\AppData\Roaming\npm-cache\1bbeab34-50379-0-2820778298191726-tmp-tgz.lock
+1241 silly gunzTarPerm modes [ '755', '644' ]
+1242 silly gunzTarPerm extractEntry package.json
+1243 silly gunzTarPerm extractEntry .npmignore
+1244 silly gunzTarPerm extractEntry README.md
+1245 silly gunzTarPerm extractEntry browser.js
+1246 silly gunzTarPerm extractEntry index.js
+1247 silly gunzTarPerm extractEntry LICENSE.APACHE2
+1248 silly gunzTarPerm extractEntry LICENSE.BSD
+1249 silly gunzTarPerm extractEntry LICENSE.MIT
+1250 silly gunzTarPerm extractEntry lib/utils.js
+1251 silly gunzTarPerm extractEntry test/ini.js
+1252 silly gunzTarPerm extractEntry test/test.js
+1253 silly lockFile fbe56d27-50379-0-2820778298191726-package tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\rc-0.3.51398417050379-0.2820778298191726\package
+1254 silly lockFile fbe56d27-50379-0-2820778298191726-package tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\rc-0.3.51398417050379-0.2820778298191726\package
+1255 silly lockFile 1bbeab34-50379-0-2820778298191726-tmp-tgz tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\rc-0.3.51398417050379-0.2820778298191726\tmp.tgz
+1256 silly lockFile 1bbeab34-50379-0-2820778298191726-tmp-tgz tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\rc-0.3.51398417050379-0.2820778298191726\tmp.tgz
+1257 verbose tar pack [ 'C:\\Users\\JINGA4X\\AppData\\Roaming\\npm-cache\\rc\\0.3.5\\package.tgz',
+1257 verbose tar pack   'c:\\Users\\JINGA4X\\AppData\\Local\\Temp\\npm-26336-vQa7To5a\\rc-0.3.51398417050379-0.2820778298191726\\package' ]
+1258 verbose tarball C:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package.tgz
+1259 verbose folder c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\rc-0.3.51398417050379-0.2820778298191726\package
+1260 info prepublish rc@0.3.5
+1261 silly lockFile fbe56d27-50379-0-2820778298191726-package tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\rc-0.3.51398417050379-0.2820778298191726\package
+1262 verbose lock tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\rc-0.3.51398417050379-0.2820778298191726\package C:\Users\JINGA4X\AppData\Roaming\npm-cache\fbe56d27-50379-0-2820778298191726-package.lock
+1263 silly lockFile b8274fdf-g-npm-cache-rc-0-3-5-package-tgz tar://C:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package.tgz
+1264 verbose lock tar://C:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package.tgz C:\Users\JINGA4X\AppData\Roaming\npm-cache\b8274fdf-g-npm-cache-rc-0-3-5-package-tgz.lock
+1265 silly lockFile fbe56d27-50379-0-2820778298191726-package tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\rc-0.3.51398417050379-0.2820778298191726\package
+1266 silly lockFile fbe56d27-50379-0-2820778298191726-package tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\rc-0.3.51398417050379-0.2820778298191726\package
+1267 silly lockFile b8274fdf-g-npm-cache-rc-0-3-5-package-tgz tar://C:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package.tgz
+1268 silly lockFile b8274fdf-g-npm-cache-rc-0-3-5-package-tgz tar://C:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package.tgz
+1269 silly lockFile 60c278c0-aming-npm-cache-rc-0-3-5-package c:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package
+1270 verbose lock c:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package C:\Users\JINGA4X\AppData\Roaming\npm-cache\60c278c0-aming-npm-cache-rc-0-3-5-package.lock
+1271 silly lockFile 60c278c0-aming-npm-cache-rc-0-3-5-package c:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package
+1272 silly lockFile 60c278c0-aming-npm-cache-rc-0-3-5-package c:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package
+1273 verbose tar unpack C:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package.tgz
+1274 silly lockFile 9196f0ba-aming-npm-cache-rc-0-3-5-package tar://c:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package
+1275 verbose lock tar://c:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package C:\Users\JINGA4X\AppData\Roaming\npm-cache\9196f0ba-aming-npm-cache-rc-0-3-5-package.lock
+1276 silly lockFile b8274fdf-g-npm-cache-rc-0-3-5-package-tgz tar://C:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package.tgz
+1277 verbose lock tar://C:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package.tgz C:\Users\JINGA4X\AppData\Roaming\npm-cache\b8274fdf-g-npm-cache-rc-0-3-5-package-tgz.lock
+1278 silly gunzTarPerm modes [ '755', '644' ]
+1279 silly gunzTarPerm extractEntry package.json
+1280 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+1281 silly gunzTarPerm extractEntry .npmignore
+1282 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+1283 silly gunzTarPerm extractEntry README.md
+1284 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+1285 silly gunzTarPerm extractEntry browser.js
+1286 silly gunzTarPerm modified mode [ 'browser.js', 438, 420 ]
+1287 silly gunzTarPerm extractEntry index.js
+1288 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+1289 silly gunzTarPerm extractEntry lib/utils.js
+1290 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+1291 silly gunzTarPerm extractEntry LICENSE.APACHE2
+1292 silly gunzTarPerm modified mode [ 'LICENSE.APACHE2', 438, 420 ]
+1293 silly gunzTarPerm extractEntry LICENSE.BSD
+1294 silly gunzTarPerm modified mode [ 'LICENSE.BSD', 438, 420 ]
+1295 silly gunzTarPerm extractEntry LICENSE.MIT
+1296 silly gunzTarPerm modified mode [ 'LICENSE.MIT', 438, 420 ]
+1297 silly gunzTarPerm extractEntry test/ini.js
+1298 silly gunzTarPerm modified mode [ 'test/ini.js', 438, 420 ]
+1299 silly gunzTarPerm extractEntry test/test.js
+1300 silly gunzTarPerm modified mode [ 'test/test.js', 438, 420 ]
+1301 silly lockFile 9196f0ba-aming-npm-cache-rc-0-3-5-package tar://c:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package
+1302 silly lockFile 9196f0ba-aming-npm-cache-rc-0-3-5-package tar://c:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package
+1303 silly lockFile b8274fdf-g-npm-cache-rc-0-3-5-package-tgz tar://C:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package.tgz
+1304 silly lockFile b8274fdf-g-npm-cache-rc-0-3-5-package-tgz tar://C:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package.tgz
+1305 verbose chmod C:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package.tgz 644
+1306 silly chown skipping for windows C:\Users\JINGA4X\AppData\Roaming\npm-cache\rc\0.3.5\package.tgz
+1307 silly lockFile 3c43b82a-gistry-npmjs-org-rc-rc-0-3-5-tgz https://registry.npmjs.org/rc/-/rc-0.3.5.tgz
+1308 silly lockFile 3c43b82a-gistry-npmjs-org-rc-rc-0-3-5-tgz https://registry.npmjs.org/rc/-/rc-0.3.5.tgz
+1309 silly lockFile 0e486d9c-rc-0-3-5 rc@0.3.5
+1310 silly lockFile 0e486d9c-rc-0-3-5 rc@0.3.5
+1311 silly lockFile 1e251ea5-rc-0-3-0 rc@~0.3.0
+1312 silly lockFile 1e251ea5-rc-0-3-0 rc@~0.3.0
+1313 verbose chmod c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\express-3.5.21398417051340-0.8704324697609991\tmp.tgz 644
+1314 verbose tar unpack c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\express-3.5.21398417051340-0.8704324697609991\tmp.tgz
+1315 silly lockFile b9e3ba91-51340-0-8704324697609991-package tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\express-3.5.21398417051340-0.8704324697609991\package
+1316 verbose lock tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\express-3.5.21398417051340-0.8704324697609991\package C:\Users\JINGA4X\AppData\Roaming\npm-cache\b9e3ba91-51340-0-8704324697609991-package.lock
+1317 silly lockFile 8cffdbef-51340-0-8704324697609991-tmp-tgz tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\express-3.5.21398417051340-0.8704324697609991\tmp.tgz
+1318 verbose lock tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\express-3.5.21398417051340-0.8704324697609991\tmp.tgz C:\Users\JINGA4X\AppData\Roaming\npm-cache\8cffdbef-51340-0-8704324697609991-tmp-tgz.lock
+1319 silly gunzTarPerm modes [ '755', '644' ]
+1320 silly gunzTarPerm extractEntry package.json
+1321 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+1322 silly gunzTarPerm extractEntry .npmignore
+1323 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+1324 silly gunzTarPerm extractEntry LICENSE
+1325 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+1326 silly gunzTarPerm extractEntry index.js
+1327 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+1328 silly gunzTarPerm extractEntry .travis.yml
+1329 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+1330 silly gunzTarPerm extractEntry History.md
+1331 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+1332 silly gunzTarPerm extractEntry Makefile
+1333 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+1334 silly gunzTarPerm extractEntry Readme.md
+1335 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+1336 silly gunzTarPerm extractEntry bin/express
+1337 silly gunzTarPerm modified mode [ 'bin/express', 438, 420 ]
+1338 silly gunzTarPerm extractEntry lib/application.js
+1339 silly gunzTarPerm modified mode [ 'lib/application.js', 438, 420 ]
+1340 silly gunzTarPerm extractEntry lib/express.js
+1341 silly gunzTarPerm modified mode [ 'lib/express.js', 438, 420 ]
+1342 silly gunzTarPerm extractEntry lib/middleware.js
+1343 silly gunzTarPerm modified mode [ 'lib/middleware.js', 438, 420 ]
+1344 silly gunzTarPerm extractEntry lib/request.js
+1345 silly gunzTarPerm modified mode [ 'lib/request.js', 438, 420 ]
+1346 silly gunzTarPerm extractEntry lib/response.js
+1347 silly gunzTarPerm modified mode [ 'lib/response.js', 438, 420 ]
+1348 silly gunzTarPerm extractEntry lib/utils.js
+1349 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+1350 silly gunzTarPerm extractEntry lib/view.js
+1351 silly gunzTarPerm modified mode [ 'lib/view.js', 438, 420 ]
+1352 silly gunzTarPerm extractEntry lib/router/index.js
+1353 silly gunzTarPerm modified mode [ 'lib/router/index.js', 438, 420 ]
+1354 silly gunzTarPerm extractEntry lib/router/route.js
+1355 silly gunzTarPerm modified mode [ 'lib/router/route.js', 438, 420 ]
+1356 silly lockFile b9e3ba91-51340-0-8704324697609991-package tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\express-3.5.21398417051340-0.8704324697609991\package
+1357 silly lockFile b9e3ba91-51340-0-8704324697609991-package tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\express-3.5.21398417051340-0.8704324697609991\package
+1358 silly lockFile 8cffdbef-51340-0-8704324697609991-tmp-tgz tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\express-3.5.21398417051340-0.8704324697609991\tmp.tgz
+1359 silly lockFile 8cffdbef-51340-0-8704324697609991-tmp-tgz tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\express-3.5.21398417051340-0.8704324697609991\tmp.tgz
+1360 verbose tar pack [ 'C:\\Users\\JINGA4X\\AppData\\Roaming\\npm-cache\\express\\3.5.2\\package.tgz',
+1360 verbose tar pack   'c:\\Users\\JINGA4X\\AppData\\Local\\Temp\\npm-26336-vQa7To5a\\express-3.5.21398417051340-0.8704324697609991\\package' ]
+1361 verbose tarball C:\Users\JINGA4X\AppData\Roaming\npm-cache\express\3.5.2\package.tgz
+1362 verbose folder c:\Users\JINGA4X\AppData\Local\Temp\npm-26336-vQa7To5a\express-3.5.21398417051340-0.8704324697609991\package
+1363 info prepublish express@3.5.2
+1364 verbose unsafe-perm in lifecycle true
+1365 info express@3.5.2 Failed to exec prepublish script
+1366 error addLocalDirectory Could not pack "c:\\Users\\JINGA4X\\AppData\\Local\\Temp\\npm-26336-vQa7To5a\\express-3.5.21398417051340-0.8704324697609991\\package" to "C:\\Users\\JINGA4X\\AppData\\Roaming\\npm-cache\\express\\3.5.2\\package.tgz"
+1367 silly lockFile 57fef7b7-js-org-express-express-3-5-2-tgz https://registry.npmjs.org/express/-/express-3.5.2.tgz
+1368 silly lockFile 57fef7b7-js-org-express-express-3-5-2-tgz https://registry.npmjs.org/express/-/express-3.5.2.tgz
+1369 silly lockFile 2542aebf-express-3-5-2 express@3.5.2
+1370 silly lockFile 2542aebf-express-3-5-2 express@3.5.2
+1371 silly lockFile ded93d9f-express-3-5 express@~3.5
+1372 silly lockFile ded93d9f-express-3-5 express@~3.5
+1373 verbose about to build C:\Users\JINGA4X\AppData\Roaming\npm\node_modules\node-inspector
+1374 info C:\Users\JINGA4X\AppData\Roaming\npm\node_modules\node-inspector unbuild
+1375 info preuninstall node-inspector@0.7.3
+1376 info uninstall node-inspector@0.7.3
+1377 verbose true,C:\Users\JINGA4X\AppData\Roaming\npm\node_modules,C:\Users\JINGA4X\AppData\Roaming\npm\node_modules unbuild node-inspector@0.7.3
+1378 verbose C:\Users\JINGA4X\AppData\Roaming\npm,[object Object] binRoot
+1379 info postuninstall node-inspector@0.7.3
+1380 error express@3.5.2 prepublish: `npm prune`
+1380 error Exit status 4294963238
+1381 error Failed at the express@3.5.2 prepublish script.
+1381 error This is most likely a problem with the express package,
+1381 error not with npm itself.
+1381 error Tell the author that this fails on your system:
+1381 error     npm prune
+1381 error You can get their info via:
+1381 error     npm owner ls express
+1381 error There is likely additional logging output above.
+1382 error System Windows_NT 6.1.7601
+1383 error command "C:\\SoftDesarrollo\\4-Software\\Node.js-0.11.9\\\\node.exe" "C:\\SoftDesarrollo\\4-Software\\Node.js-0.11.9\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "node-inspector"
+1384 error cwd C:\Users\JINGA4X\Documents\GitHub\express-basic-4
+1385 error node -v v0.11.9
+1386 error npm -v 1.3.15
+1387 error code ELIFECYCLE
+1388 verbose exit [ 1, true ]

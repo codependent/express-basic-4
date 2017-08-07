@@ -20,7 +20,7 @@ block content
 
 				form(method='POST',action='/private/notes/' + val._id)
 					input(class='btn btn-danger' type='submit',value='Delete')
-					input(type='hidden', name='_method', value='DELETE')
+					input(type='hidden',name="_method",value='DELETE')
 
 
 	div(class='modal fade', id='newCommentPopup', tabindex='-1', role='dialog',aria-labelledby='myModalLabel',aria-hidden='true')
